@@ -13,7 +13,7 @@ with st.expander("Causas de Muerte"):
     st.write("Nuestro objetivo es analizar la evolución de las principales causas de muerte en Cuba durante más de dos décadas, desde el año 2000 hasta 2022. Utilizando una visualización interactiva y dinámica, exploraremos cómo estas causas han cambiado a lo largo de los años, identificando patrones, fluctuaciones y tendencias significativas.    Un aspecto particularmente notable es el comportamiento de los tumores malignos, que han sido la principal causa de muerte durante todo el período analizado. En particular, en 2021, los tumores malignos alcanzaron una tasa de mortalidad del 240.9 por cada 100,000 habitantes, un dato que destaca y merece una atención especial en nuestro análisis. Este aumento significativo subraya la importancia de entender las tendencias a largo plazo y de considerar las implicaciones para las políticas de salud pública y las estrategias de prevención.")
    
     def load_data():
-        return pd.read_json('../data/output.json')
+        return pd.read_json('data/output.json')
     data = load_data()
 
     df = pd.DataFrame(data)
