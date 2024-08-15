@@ -3,37 +3,57 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.title('Análisis de las Principales Causas de Muerte en Cuba')
+st.title('Principales Causas de Muerte en Cuba')
 
 
-with st.expander("Causas de Muerte"):
-    st.write('Comprender las tendencias en las principales causas de muerte es crucial para desarrollar estrategias de prevención y promoción de la salud. Este proyecto se centra en una revisión exhaustiva de los datos proporcionados por el Anuario Estadístico de Cuba, que abarca desde el año 2000 hasta el 2022. ')
-    
-    st.write("Nuestro objetivo es analizar la evolución de las principales causas de muerte en Cuba durante más de dos décadas, desde el año 2000 hasta 2022. Utilizando una visualización interactiva y dinámica, exploraremos cómo estas causas han cambiado a lo largo de los años, identificando patrones, fluctuaciones y tendencias significativas.    Un aspecto particularmente notable es el comportamiento de los tumores malignos, que han sido la principal causa de muerte durante todo el período analizado. En particular, en 2021, los tumores malignos alcanzaron una tasa de mortalidad del 240.9 por cada 100,000 habitantes, un dato que destaca y merece una atención especial en nuestro análisis. Este aumento significativo subraya la importancia de entender las tendencias a largo plazo y de considerar las implicaciones para las políticas de salud pública y las estrategias de prevención.")
-   
-    def load_data():
-        return pd.read_json('data/output.json')
-    data = load_data()
+st.write('')
 
-    df = pd.DataFrame(data)
+def load_data():
+    return pd.read_json('data/output.json')
+data = load_data()
 
-    df_long = df.melt(id_vars="enfermedades", var_name="Año", value_name="Número de Muertes")
+df = pd.DataFrame(data)
 
-    fig = go.Figure()
+df_long = df.melt(id_vars="enfermedades", var_name="Año", value_name="Número de Muertes")
 
-    for enfermedad in df['enfermedades']:
-        df_enfermedad = df_long[df_long['enfermedades'] == enfermedad]
-        fig.add_trace(go.Scatter(x=df_enfermedad['Año'], y=df_enfermedad['Número de Muertes'], mode='lines+markers',name=enfermedad))
+fig = go.Figure()
 
-                               
-                 
-    fig.update_layout(
-        title='Principales Causas de Muerte en Cuba',
-        xaxis_title='Año',
-        yaxis_title='Número de Muertes',
-        hovermode='x unified'
-    )
-    st.write("Este análisis no solo proporciona una perspectiva sobre el impacto histórico de estas enfermedades, sino que también ofrece información valiosa para la planificación de políticas de salud pública y la asignación de recursos. Al observar las tendencias y patrones en los datos, los responsables de la formulación de políticas y los profesionales de la salud podrán identificar áreas prioritarias para la intervención y mejorar las estrategias para abordar las principales causas de muerte en Cuba.")  
-    # st.title('Análisis de Causas de Muerte')
-    st.plotly_chart(fig)
-    st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar la evolución de estas causas de manera intuitiva, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país.")
+for enfermedad in df['enfermedades']:
+    df_enfermedad = df_long[df_long['enfermedades'] == enfermedad]
+    fig.add_trace(go.Scatter(x=df_enfermedad['Año'], y=df_enfermedad['Número de Muertes'], mode='lines+markers',name=enfermedad))
+
+                            
+                
+fig.update_layout(
+    title='Principales Causas de Muerte en Cuba',
+    xaxis_title='Año',
+    yaxis_title='Número de Muertes',
+    hovermode='x unified'
+)
+st.write("En Cuba, las principales causas de defunción se agrupan en tres grandes categorías: enfermedades cardiovasculares (incluyendo cardiopatías isquémicas y accidentes cerebrovasculares), enfermedades respiratorias (como la enfermedad pulmonar obstructiva crónica e infecciones de las vías respiratorias inferiores), y tumores malignos (cáncer). En particular, el cáncer ha sido una de las principales causas de mortalidad a lo largo de los años, y experimentó un aumento significativo en 2021, con una tasa de 240,9 muertes por cada 100,000 habitantes. Este aumento subraya la necesidad de comprender las evolución a largo plazo y resaltar la importancia de desarrollar políticas de salud pública y estrategias de prevención adaptadas a estas realidades.")  
+st.plotly_chart(fig)
+st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo.")
+
+df_enfermedad = pd.DataFrame(data)
+excluir_enfermedades = ["COVID-19", "Accidentes","Influenza y neumonia","Lesiones autoinflingidas accidentalmente"]
+
+df_2022 = df_enfermedad[~df_enfermedad['enfermedades'].isin(excluir_enfermedades)]
+df_2022 = df_2022[['enfermedades', '2022']].rename(columns={'2022': 'Número de Muertes'})
+
+enfermedades = df_2022['enfermedades']
+muertes_2022 = df_2022['Número de Muertes']
+
+st.title('Prevenir el riesgo de morir por Enfermedades No Transmisibles(ENT)')
+st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muerte en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
+st.write("Según un artículo publicado por el Ministerio de Salud Pública de Cuba (MINSAP) en febrero de 2020, la prevención de la muerte prematura causada por enfermedades no transmisibles (ENT) en Cuba se enfrenta a varios factores de riesgo significativos. Estos incluyen el tabaquismo y la exposición al humo de tabaco, una dieta poco saludable, la inactividad física, la obesidad y el consumo excesivo de alcohol. Recientemente, se ha añadido la contaminación del aire a esta lista, reconociéndose a nivel mundial como un factor de riesgo importante para las enfermedades cardiovasculares y respiratorias crónicas. Abordar estos factores es crucial para mejorar la salud pública y reducir la mortalidad prematura asociada con las ENT.")
+st.write("Las condiciones de vida, el empleo, el ambiente laboral, la educación, la globalización, así como las situaciones económicas y demográficas y la urbanización, son factores clave que determinan la prevalencia de enfermedades no transmisibles (ENT). Estos desafíos requieren un esfuerzo concertado tanto de los servicios de salud como de toda la sociedad, dado que se trata de un problema que afecta a nivel global, no solo a Cuba..")
+
+fig1 = go.Figure(data=[go.Bar(x=enfermedades, y=muertes_2022, marker_color='blue')])
+
+fig1.update_layout(
+    title='Número de Muertes en 2022 por Enfermedad No Transmisibles',
+    xaxis_title='Enfermedades',
+    yaxis_title='Número de Muertes',
+    xaxis_tickangle=-45  
+)
+st.plotly_chart(fig1)
