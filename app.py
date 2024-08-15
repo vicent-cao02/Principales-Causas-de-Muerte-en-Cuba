@@ -4,18 +4,24 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit.components.v1 as components
 
+# Reemplaza con tu ID de seguimiento de Google Analytics
+GA_TRACKING_ID = 'G-E4PEX6Q6J0'  # Para GA4
+
+# Código de seguimiento de Google Analytics
 ga_code = f"""
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E4PEX6Q6J0"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
+  gtag('config', '{GA_TRACKING_ID}');
+</script>
+"""
 
-  gtag('config', 'G-E4PEX6Q6J0');
-</script>"""
-
+# Agrega el código de seguimiento a la aplicación
 components.html(ga_code, height=0, width=0)
+
 
 st.title('Principales Causas de Muerte en Cuba')
 
