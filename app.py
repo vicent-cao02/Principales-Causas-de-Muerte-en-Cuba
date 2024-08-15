@@ -4,16 +4,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit.components.v1 as components
 
-GA_TRACKING_ID = 'G-F0GP02LFKX'  
-
 ga_code = f"""
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0GP02LFKX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
-  gtag('config', '{GA_TRACKING_ID}');
+  gtag('config', 'G-F0GP02LFKX');
 </script>
 """
 
