@@ -4,23 +4,46 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit.components.v1 as components
 
-# Reemplaza con tu ID de seguimiento de Google Analytics
-GA_TRACKING_ID = 'G-E4PEX6Q6J0'  # Para GA4
+# # Reemplaza con tu ID de seguimiento de Google Analytics
+# GA_TRACKING_ID = 'G-E4PEX6Q6J0'  # Para GA4
 
-# Código de seguimiento de Google Analytics
-ga_code = f"""
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA_TRACKING_ID}');
+# # Código de seguimiento de Google Analytics
+# ga_code = f"""
+# <!-- Google tag (gtag.js) -->
+# <script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
+# <script>
+#   window.dataLayer = window.dataLayer || [];
+#   function gtag(){{dataLayer.push(arguments);}}
+#   gtag('js', new Date());
+#   gtag('config', '{GA_TRACKING_ID}');
+# </script>
+# """
+
+# # Agrega el código de seguimiento a la aplicación
+# components.html(ga_code, height=0, width=0)
+# Reemplaza con tu clave de escritura de Segment
+SEGMENT_WRITE_KEY = 'GI7vYWHNmWwHbyFjBrvL0jOBA1TpZOXC'
+
+# Código de seguimiento de Segment
+segment_code = f"""
+<!-- Segment Analytics.js -->
+<script type="text/javascript">
+  !function(){{
+    var e=window.analytics=window.analytics||[];if(!e.initialize)
+    if(e.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");
+    else{{
+      e.invoked=!0,e.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"],
+      e.factory=function(t){{return function(){var n=Array.prototype.slice.call(arguments);return n.unshift(t),e.push(n)}}};
+      for(var t=0;t<e.methods.length;t++){{var n=e.methods[t];e[n]=e.factory(n)}}
+      e.load=function(t,n){{var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r),e._loadOptions=n}},
+      e.SNIPPET_VERSION="4.13.1",e.load("{SEGMENT_WRITE_KEY}")
+    }}
+  }}()
 </script>
 """
 
 # Agrega el código de seguimiento a la aplicación
-components.html(ga_code, height=0, width=0)
+components.html(segment_code, height=0, width=0)
 
 
 st.title('Principales Causas de Muerte en Cuba')
