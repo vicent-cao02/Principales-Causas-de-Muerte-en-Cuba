@@ -1,0 +1,90 @@
+[
+    {
+        "Localizacion": "Traquea, bronquios y pulmon ",
+        "Tasa": "44,7"
+    },
+    {
+        "Localizacion": "Prostata",
+        "Tasa": "61,8"
+    },
+    {
+        "Localizacion": "Intestino, excepto el recto ",
+        "Tasa": "22,9"
+    },
+    {
+        "Localizacion": "Mama de la mujer",
+        "Tasa": "31,5"
+    },
+    {
+        "Localizacion": "Laringe ",
+        "Tasa": "8,9"
+    },
+    {
+        "Localizacion": "Labio, cavidad bucal y faringe ",
+        "Tasa": "8,7"
+    },
+    {
+        "Localizacion": "Vias urinarias ",
+        "Tasa": "8,6"
+    },
+    {
+        "Localizacion": "Pancreas ",
+        "Tasa": "8,0"
+    },
+    {
+        "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Tasa": "7,7"
+    },
+    {
+        "Localizacion": "Estomago ",
+        "Tasa": "7,4"
+    },
+    {
+        "Localizacion": "Esofago ",
+        "Tasa": "7,2"
+    },
+    {
+        "Localizacion": "Higado y vias biliares intrahepaticas ",
+        "Tasa": "7,1"
+    },
+    {
+        "Localizacion": "Otras partes del utero y las no especificadas ",
+        "Tasa": "13,3"
+    },
+    {
+        "Localizacion": "Encefalo ",
+        "Tasa": "5,4"
+    },
+    {
+        "Localizacion": "Piel ",
+        "Tasa": "5,4"
+    },
+    {
+        "Localizacion": "Cuello de utero ",
+        "Tasa": "9,9"
+    },
+    {
+        "Localizacion": "Leucemia ",
+        "Tasa": "4,3"
+    },
+    {
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
+        "Tasa": "3,5"
+    },
+    {
+        "Localizacion": "Ovarios",
+        "Tasa": "6,6"
+    },
+    {
+        "Localizacion": "Huesos y cartilagos articulares ",
+        "Tasa": "1,8"
+    },
+    {
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "14,3"
+    },
+    {
+        "Localizacion": "Total",
+        "Tasa": "227,4"
+    }
+]

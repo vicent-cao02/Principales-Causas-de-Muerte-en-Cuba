@@ -3,47 +3,22 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit.components.v1 as components
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-# # Reemplaza con tu ID de seguimiento de Google Analytics
-# GA_TRACKING_ID = 'G-E4PEX6Q6J0'  # Para GA4
-
-# # Código de seguimiento de Google Analytics
-# ga_code = f"""
-# <!-- Google tag (gtag.js) -->
-# <script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
-# <script>
-#   window.dataLayer = window.dataLayer || [];
-#   function gtag(){{dataLayer.push(arguments);}}
-#   gtag('js', new Date());
-#   gtag('config', '{GA_TRACKING_ID}');
-# </script>
-# """
-
-# # Agrega el código de seguimiento a la aplicación
-# components.html(ga_code, height=0, width=0)
-# Reemplaza con tu clave de escritura de Segment
-SEGMENT_WRITE_KEY = 'GI7vYWHNmWwHbyFjBrvL0jOBA1TpZOXC'
-
-# Código de seguimiento de Segment
-segment_code = f"""
-<!-- Segment Analytics.js -->
-<script type="text/javascript">
-  !function(){{
-    var e=window.analytics=window.analytics||[];if(!e.initialize)
-    if(e.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");
-    else{{
-      e.invoked=!0,e.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"],
-      e.factory=function(t){{return function(){var n=Array.prototype.slice.call(arguments);return n.unshift(t),e.push(n)}}};
-      for(var t=0;t<e.methods.length;t++){{var n=e.methods[t];e[n]=e.factory(n)}}
-      e.load=function(t,n){{var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r),e._loadOptions=n}},
-      e.SNIPPET_VERSION="4.13.1",e.load("{SEGMENT_WRITE_KEY}")
-    }}
-  }}()
+GA_TRACKING_ID = 'G-E4PEX6Q6J0'  
+ga_code = f"""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA_TRACKING_ID}');
 </script>
+console.log('hello')
 """
-
-# Agrega el código de seguimiento a la aplicación
-components.html(segment_code, height=0, width=0)
+components.html(ga_code, height=0, width=0)
 
 
 st.title('Principales Causas de Muerte en Cuba')
@@ -75,8 +50,7 @@ fig.update_layout(
 )
 st.write("En Cuba, las principales causas de defunción se agrupan en tres grandes categorías: enfermedades cardiovasculares (incluyendo cardiopatías isquémicas y accidentes cerebrovasculares), enfermedades respiratorias (como la enfermedad pulmonar obstructiva crónica e infecciones de las vías respiratorias inferiores), y tumores malignos (cáncer). En particular, el cáncer ha sido una de las principales causas de mortalidad a lo largo de los años, y experimentó un aumento significativo en 2021, con una tasa de 240,9 muertes por cada 100,000 habitantes. Este aumento subraya la necesidad de comprender las evolución a largo plazo y resaltar la importancia de desarrollar políticas de salud pública y estrategias de prevención adaptadas a estas realidades.")  
 st.plotly_chart(fig)
-st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo.")
-
+st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo. Resulta interesante resaltar que la mayoría de estas causas de muerte son no transmisibles, lo que sugiere una necesidad de abordar este tema causado en Cuba fundamentalmente por el alto consumo de tabaco en la población, lo que aumenta el riesgo de enfermedades cardeovasculares, cancer y otras enfermedades no transmisibles.")
 df_enfermedad = pd.DataFrame(data)
 excluir_enfermedades = ["COVID-19", "Accidentes","Influenza y neumonia","Lesiones autoinflingidas accidentalmente"]
 
@@ -100,10 +74,34 @@ st.plotly_chart(fig1)
 st.write("Según un artículo publicado por el Ministerio de Salud Pública de Cuba (MINSAP) en febrero de 2020, la prevención de la muerte prematura causada por enfermedades no transmisibles (ENT) en Cuba se enfrenta a varios factores de riesgo significativos. Estos incluyen el tabaquismo y la exposición al humo de tabaco, una dieta poco saludable, la inactividad física, la obesidad y el consumo excesivo de alcohol. Recientemente, se ha añadido la contaminación del aire a esta lista, reconociéndose a nivel mundial como un factor de riesgo importante para las enfermedades cardiovasculares y respiratorias crónicas. Abordar estos factores es crucial para mejorar la salud pública y reducir la mortalidad prematura asociada con las ENT.")
 st.write("Las condiciones de vida, el empleo, el ambiente laboral, la educación, la globalización, así como las situaciones económicas y demográficas y la urbanización, son factores clave que determinan la prevalencia de enfermedades no transmisibles (ENT). Estos desafíos requieren un esfuerzo concertado tanto de los servicios de salud como de toda la sociedad, dado que se trata de un problema que afecta a nivel global, no solo a Cuba..")
 
+datas = pd.read_json('data/output2.json')
+df = pd.DataFrame(datas)
+for col in df.columns[1:]:  
+    if df[col].dtype == 'object':  
+        df[col] = df[col].str.replace(',', '.').str.replace(' ', '').astype(float)
+df.set_index('Annos', inplace=True)
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.heatmap(df, annot=True, cmap='YlGnBu', fmt=".1f", linewidths=0.5, ax=ax)
+ax.set_title('Tumores Malignos por Rango de Edad y Años(2021-2022)')
+st.pyplot(fig)
 
-st.title("Disparidades de Género")
-st.write("")
 
+data = pd.read_json('data/output3.json')
+
+df = pd.DataFrame(data)
+for col in df.columns[1:]:  
+    if df[col].dtype == 'object':  
+        df[col] = df[col].str.replace(',', '.').str.replace(' ', '').astype(float)
+fig = px.pie(df[:-1], names='Localizacion', values='Tasa',
+             title='Distribución de la Tasa de Mortalidad por Localización',
+             labels={'Tasa': 'Tasa de Mortalidad'},
+             color_discrete_sequence=px.colors.sequential.Cividis)
+st.plotly_chart(fig)
+
+
+st.title("Enfermedades no Transmisibles con lentes de Género")
+st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y a mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgo así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestan q estas enfermedades afectan más a hombres, esto estará dado seguro a que para obterner más estatus los hombres deben fumar y consumir bebidas alcohólicas mas frecuentementem, esto hace q tenga un aumento acelerado de estas enfermedades.")
+st.write("las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, que representan una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser obesas que los hombres, aumenta la vulnerabilidad de éstas a padecer (ENT) y especialmente diabetes.")
 def load_data():
     return pd.read_json('data/output1.json')
 data1 = load_data()
@@ -134,3 +132,4 @@ fig.update_layout(
     barmode='group'
 )
 st.plotly_chart(fig)
+
