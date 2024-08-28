@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import streamlit.components.v1 as components
 import seaborn as sns
 import matplotlib.pyplot as plt
+import json
 
 GA_TRACKING_ID = 'G-E4PEX6Q6J0'  
 ga_code = f"""
@@ -126,11 +127,11 @@ muertes_2022 = df_2022['Número de Muertes']
 
 st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo. Resulta interesante resaltar que la mayoría de estas causas de muerte son no transmisibles, lo que sugiere una necesidad de abordar este tema causado en Cuba fundamentalmente por el alto consumo de tabaco en la población, lo que aumenta el riesgo de enfermedades cardiovasculares, cáncer y otras enfermedades no transmisibles.")
 st.title('Prevenir el riesgo de morir por Enfermedades No Transmisibles(ENT)')
-st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muerte en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
+st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En el 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muerte en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
 fig1 = go.Figure(data=[go.Bar(x=enfermedades, y=muertes_2022, marker_color='blue')])
 
 fig1.update_layout(
-    title='Tasas de Muertes en 2022 por Enfermedades No Transmisibles(ENT)',
+    title='Tasas de Muertes en el 2022 por Enfermedades No Transmisibles (ENT)',
     xaxis_title='Enfermedades',
     yaxis_title='Número de Muertes',
     xaxis_tickangle=-45  
@@ -142,8 +143,8 @@ st.write("Las condiciones de vida, el empleo, el ambiente laboral, la educación
 
 
 st.title("Enfermedades no Transmisibles con lentes de Género")
-st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y a mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgo así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestan q estas enfermedades afectan más a hombres, esto estará dado seguro a que para obterner más estatus los hombres deben fumar y consumir bebidas alcohólicas mas frecuentementem, esto hace q tenga un aumento acelerado de estas enfermedades.")
-st.write("las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, que representan una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser obesas que los hombres, aumenta la vulnerabilidad de éstas a padecer (ENT) y especialmente diabetes.")
+st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y a mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgo así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto estará dado seguro a que para obterner más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
+st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, que representan una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser obesas que los hombres, aumenta la vulnerabilidad de estas a padecer (ENT) y especialmente diabetes.")
 def load_data():
     return pd.read_json('data/output1.json')
 data1 = load_data()
@@ -175,3 +176,76 @@ fig.update_layout(
 )
 st.plotly_chart(fig)
 
+
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import json
+
+# Cargar datos JSON
+@st.cache_data
+def load_data():
+    with open('data/output4.json') as f:
+        data = json.load(f)
+    return data
+
+data = load_data()
+
+# Convertir datos JSON a DataFrame
+def json_to_df(data):
+    df_list = []
+    for item in data:
+        enfermedad = item['enfermedades']
+        for key, value in item.items():
+            if key != 'enfermedades':
+                df_list.append({'enfermedad': enfermedad, 'provincia': key, 'valor': float(value.replace(',', '.'))})
+    
+    df = pd.DataFrame(df_list)
+    return df
+
+df = json_to_df(data)
+
+
+def load_geojson():
+    with open('data/cuba.geojson') as f:
+        geojson = json.load(f)
+    return geojson
+
+geojson = load_geojson()
+
+def plot_map(df, geojson, selected_enfermedades):
+    filtered_df = df[df['enfermedad'] == selected_enfermedades]
+    
+    provinces = filtered_df['provincia'].unique()
+    print("Provincias disponibles en los datos:", provinces)
+    
+    fig = px.choropleth(
+        filtered_df,
+        geojson=geojson,
+        locations='provincia',
+        featureidkey="properties.province", 
+        color='valor',
+        color_continuous_scale="Viridis",
+        labels={'valor': 'Incidencia'}
+    )
+    
+    fig.update_geos(
+        visible=True,
+        fitbounds="locations", 
+        projection=dict(
+            type="mercator"  
+        ),
+        center={"lat": 23.5, "lon": -98.0},  
+        scope="world" 
+    )
+    fig.update_layout(
+        width=800,  
+        height=600   
+    )
+    return fig
+
+enfermedades = df['enfermedad'].unique()
+selected_enfermedades = st.selectbox('Selecciona una enfermedad:', enfermedades)
+
+fig = plot_map(df, geojson, selected_enfermedades)
+st.plotly_chart(fig)
