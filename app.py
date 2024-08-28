@@ -77,6 +77,73 @@ fig.update_layout(
 st.write("Las principales causas de defunción se agrupan en las siguientes categorías: enfermedades cardiovasculares (incluyendo cardiopatías isquémicas y accidentes cerebrovasculares), enfermedades respiratorias (como la enfermedad pulmonar obstructiva crónica e infecciones de las vías respiratorias inferiores, el Covid 19), las enfermedades hepáticas (Cirrosis), las enfermedades metabólicas (la Diabetes mellitus por tener un impacto significativo en la salud cardiovascular y estar relacionada con otras condiciones ) las no intensionadas (como los accidentes de tránsito y las lesiones autoinflingida accidentalmente), y los tumores malignos (cáncer). En particular, el cáncer ha sido una de las principales causas de mortalidad a lo largo de los años, y experimentó un aumento significativo en el 2021, con una tasa de 240,9 muertes por cada 100,000 habitantes en un período afectado por la Covid-19. Este aumento subraya la necesidad de comprender la evolución a largo plazo y resaltar la importancia de desarrollar políticas de salud pública y estrategias de prevención adaptadas a estas realidades.")  
 st.plotly_chart(fig)
 
+
+
+def load_data():
+    with open('data/output4.json') as f:
+        data = json.load(f)
+    return data
+
+data = load_data()
+
+def json_to_df(data):
+    df_list = []
+    for item in data:
+        enfermedad = item['enfermedades']
+        for key, value in item.items():
+            if key != 'enfermedades':
+                df_list.append({'enfermedad': enfermedad, 'provincia': key, 'valor': float(value.replace(',', '.'))})
+    
+    df = pd.DataFrame(df_list)
+    return df
+
+df = json_to_df(data)
+
+
+def load_geojson():
+    with open('data/cuba.geojson') as f:
+        geojson = json.load(f)
+    return geojson
+
+geojson = load_geojson()
+
+def plot_map(df, geojson, selected_enfermedades):
+    filtered_df = df[df['enfermedad'] == selected_enfermedades]
+    
+    provinces = filtered_df['provincia'].unique()
+    print("Provincias disponibles en los datos:", provinces)
+    
+    fig = px.choropleth(
+        filtered_df,
+        geojson=geojson,
+        locations='provincia',
+        featureidkey="properties.province", 
+        color='valor',
+        color_continuous_scale="Viridis",
+        labels={'valor': 'Incidencia'}
+    )
+    
+    fig.update_geos(
+        visible=True,
+        fitbounds="locations", 
+        projection=dict(
+            type="mercator"  
+        ),
+        center={"lat": 20.5, "lon": -100.0},  
+        
+    )
+    fig.update_layout(
+        width=800,  
+        height=600   
+    )
+    return fig
+
+enfermedades = df['enfermedad'].unique()
+selected_enfermedades = st.selectbox('Selecciona una enfermedad:', enfermedades)
+
+fig = plot_map(df, geojson, selected_enfermedades)
+st.plotly_chart(fig)
+
 st.write("El cáncer es un término genérico que designa un amplio grupo de enfermedades que pueden afectar a cualquier parte del organismo; también se utilizan los términos tumores malignos o neoplasias malignas. Constituyen un serio problema de salud para la humanidad y según el artículo publicado por la revista [Scielo](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1028-48182024000100005#:~:text=Los%20tumores%20malignos%20constituyen%20la,de%20muerte%20en%20el%20pa%C3%ADs.), 'Mortalidad por tumores malignos' se estima que se incremente en un 47% de los casos antes del 2040. Los hábitos, estilos de vida, el envejecimiento de la población y las enfermedades infecciosas, son factores fundamentales de este incremento. ")
 
 
@@ -176,76 +243,3 @@ fig.update_layout(
 )
 st.plotly_chart(fig)
 
-
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-import json
-
-# Cargar datos JSON
-@st.cache_data
-def load_data():
-    with open('data/output4.json') as f:
-        data = json.load(f)
-    return data
-
-data = load_data()
-
-# Convertir datos JSON a DataFrame
-def json_to_df(data):
-    df_list = []
-    for item in data:
-        enfermedad = item['enfermedades']
-        for key, value in item.items():
-            if key != 'enfermedades':
-                df_list.append({'enfermedad': enfermedad, 'provincia': key, 'valor': float(value.replace(',', '.'))})
-    
-    df = pd.DataFrame(df_list)
-    return df
-
-df = json_to_df(data)
-
-
-def load_geojson():
-    with open('data/cuba.geojson') as f:
-        geojson = json.load(f)
-    return geojson
-
-geojson = load_geojson()
-
-def plot_map(df, geojson, selected_enfermedades):
-    filtered_df = df[df['enfermedad'] == selected_enfermedades]
-    
-    provinces = filtered_df['provincia'].unique()
-    print("Provincias disponibles en los datos:", provinces)
-    
-    fig = px.choropleth(
-        filtered_df,
-        geojson=geojson,
-        locations='provincia',
-        featureidkey="properties.province", 
-        color='valor',
-        color_continuous_scale="Viridis",
-        labels={'valor': 'Incidencia'}
-    )
-    
-    fig.update_geos(
-        visible=True,
-        fitbounds="locations", 
-        projection=dict(
-            type="mercator"  
-        ),
-        center={"lat": 23.5, "lon": -98.0},  
-        scope="world" 
-    )
-    fig.update_layout(
-        width=800,  
-        height=600   
-    )
-    return fig
-
-enfermedades = df['enfermedad'].unique()
-selected_enfermedades = st.selectbox('Selecciona una enfermedad:', enfermedades)
-
-fig = plot_map(df, geojson, selected_enfermedades)
-st.plotly_chart(fig)
