@@ -243,3 +243,4 @@ fig.update_layout(
 )
 st.plotly_chart(fig)
 
+st.write("Este estudio ha proporcionado una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
