@@ -6,21 +6,7 @@ import streamlit.components.v1 as components
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json
-
-GA_TRACKING_ID = 'G-E4PEX6Q6J0'  
-ga_code = f"""
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA_TRACKING_ID}');
-</script>
-console.log('hello')
-"""
-components.html(ga_code, height=0, width=0)
-
+import streamlit_analytics
 
 st.title('Mortalidad en Cuba: Un estudio revelador')
 
@@ -244,3 +230,8 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 st.write("Este estudio ha proporcionado una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
+
+
+with streamlit_analytics.track():
+    st.text_input("Escribe algo")
+    st.button("Haz clic aquí")
