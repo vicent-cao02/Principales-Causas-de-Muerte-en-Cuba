@@ -1,8 +1,6 @@
-streamlit
-pandas
-matplotlib
-plotly
-seaborn
-streamlit_analytics
-
-
+streamlit==1.38.0
+pandas==2.2.2
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.0
+streamlit_analytics==0.4.1
