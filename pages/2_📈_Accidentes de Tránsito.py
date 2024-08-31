@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Crisis en las Carreteras de Cuba: Un artículo sobre el Aumento de Accidentes de Tránsito")
 st.write("En el vibrante panorama de la vida cubana, donde la movilidad es esencial para el desarrollo y la conectividad social, los accidentes de tránsito emergen como una crisis silenciosa pero devastadora. A pesar de los esfuerzos por mejorar la infraestructura y las políticas de seguridad vial, la isla enfrenta un aumento preocupante en la frecuencia y severidad de estos incidentes. Este artículo examina la alarmante realidad de los accidentes de tránsito en Cuba, desglosando las causas detrás del incremento, el impacto en la sociedad y las soluciones necesarias para revertir esta tendencia preocupante.")
 st.write("En el 2022, Cuba reportó aproximadamente 9848 accidentes de tránsito, un aumento del 13% en comparación con el año anterior. Estos accidentes resultaron en 705 muertes y 7 542 heridos, reflejando un incremento en la gravedad de las lesiones. La tasa de mortalidad por accidentes de tránsito en Cuba se sitúa en 51 por cada 100,000 habitantes, superando el promedio regional de América Latina que es de 10.5 por cada 100,000 habitantes.")
-df =pd.read_excel("./data/data tránsito/accidentes_provincia.xlsx")
+df =pd.read_json("./data/output5.json")
 st.dataframe(df, width=900)
 st.write("El análisis revela que las principales arterias del país, como la Carretera Central y la Autopista Nacional, son las más propensas a accidentes, con un notable incremento en las zonas rurales y suburbios, donde la falta de mantenimiento adecuado es evidente.")
 st.image("data/bache.jpeg")
