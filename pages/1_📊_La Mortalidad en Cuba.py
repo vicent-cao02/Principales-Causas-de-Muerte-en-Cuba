@@ -2,11 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit.components.v1 as components
+# import streamlit.components.v1 as components
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json
-import streamlit_analytics
 import streamlit_analytics as streamlit_analytics  
 # from streamlit_authenticator import Authenticate
 
