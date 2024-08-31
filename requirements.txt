@@ -4,7 +4,5 @@ matplotlib
 plotly
 seaborn
 streamlit_analytics
-plotly.express
-matplotlib.pyplot
-json
-plotly.graph_objects
+
+
