@@ -197,14 +197,14 @@ with streamlit_analytics.track():
         xaxis_tickangle=-45  
     )
     st.plotly_chart(fig1)
-    st.write("Según el [artículo publicado por el Ministerio de Salud Pública de Cuba (MINSAP)](https://salud.msp.gob.cu/prevenir-el-riesgo-de-morir-prematuramente-por-enfermedades-no-transmisibles/), la prevención de la muerte prematura causada por enfermedades no transmisibles en Cuba se enfrenta a varios factores de riesgo significativos. Estos incluyen el tabaquismo y la exposición al humo de tabaco, una dieta poco saludable, la inactividad física, la obesidad y el consumo excesivo de alcohol. Recientemente, se ha añadido la contaminación del aire a esta lista, reconociéndose a nivel mundial como un factor de riesgo importante para las enfermedades cardiovasculares y respiratorias crónicas. Abordar estos factores es crucial para mejorar la salud pública y reducir la mortalidad prematura asociada con las enfermedades no transmisibles.")
-    st.write("Las condiciones de vida, el empleo, el ambiente laboral, la educación, la globalización, así como las situaciones económicas y demográficas y la urbanización, son factores clave que determinan la prevalencia de enfermedades no transmisibles (ENT). Estos desafíos requieren un esfuerzo concertado tanto de los servicios de salud como de toda la sociedad, dado que se trata de un problema que afecta a nivel global, no solo a Cuba..")
+    st.write("Según el [artículo publicado por el Ministerio de Salud Pública de Cuba (MINSAP)](https://salud.msp.gob.cu/prevenir-el-riesgo-de-morir-prematuramente-por-enfermedades-no-transmisibles/), la prevención de la muerte prematura causada por enfermedades no transmisibles en Cuba se enfrenta a varios factores de riesgos significativos. Estos incluyen el tabaquismo y la exposición al humo de tabaco, una dieta poco saludable, la inactividad física, la obesidad y el consumo excesivo de alcohol. Recientemente, se ha añadido la contaminación del aire a esta lista, reconociéndose a nivel mundial como un factor de riesgo importante para las enfermedades cardiovasculares y respiratorias crónicas. Abordar estos factores es crucial para mejorar la salud pública y reducir la mortalidad prematura asociada con las enfermedades no transmisibles.")
+    st.write("Las condiciones de vida, el empleo, el ambiente laboral, la educación, la globalización, así como las situaciones económicas y demográficas y la urbanización, son factores claves que determinan la prevalencia de enfermedades no transmisibles (ENT). Estos desafíos requieren un esfuerzo concertado tanto de los servicios de salud como de toda la sociedad, dado que se trata de un problema que afecta a nivel global, no solo a Cuba..")
 
 
 
     st.title("Enfermedades no Transmisibles con lentes de Género")
-    st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y a mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgo así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto estará dado seguro a que para obterner más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
-    st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, que representan una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser obesas que los hombres, aumenta la vulnerabilidad de estas a padecer de enfermedades no transmisibles y especialmente diabetes.")
+    st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
+    st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas a padecer de enfermedades no transmisibles y especialmente diabetes.")
     def load_data():
         return pd.read_json('data/output1.json')
     data1 = load_data()
@@ -236,8 +236,31 @@ with streamlit_analytics.track():
     )
     st.plotly_chart(fig)
 
-    st.write("Este estudio ha proporcionado una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
+    st.write("Este estudio propícia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
 
 
-
+    def likes():
+        st.subheader("¿Te gusta este artículo?")
+        col1, col2 = st.columns(2)
         
+        with col1:
+            if st.button("👍 Me gusta"):
+                st.success("¡Gracias por tu feedback positivo!")
+
+        with col2:
+            if st.button("👎 No me gusta"):
+                st.error("¡Gracias por tu feedback negativo!")
+
+    likes()
+    def comentarios():
+        with st.form(key='comment_form'):
+            comment = st.text_area("Escribe tu comentario:")
+            submit_button = st.form_submit_button("Enviar Comentario")
+
+            if submit_button:
+                if comment:
+                    st.success("¡Gracias por tu comentario!")
+                else:
+                    st.error("Por favor, escribe un comentario antes de enviar.")
+
+    comentarios()

@@ -30,3 +30,30 @@ with streamlit_analytics.track():
     st.write("***Consideraciones finales***")
     st.write("La crisis de los accidentes de tránsito en Cuba es un desafío urgente que requiere una acción concertada y efectiva. Con la combinación de infraestructura deteriorada, vehículos obsoletos y comportamientos imprudentes, el camino hacia una mayor seguridad vial es complejo pero necesario. Las iniciativas actuales son un paso en la dirección correcta, pero el éxito dependerá de la colaboración continua entre el gobierno, la comunidad y los ciudadanos.")
     st.write("Garantizar carreteras más seguras es una responsabilidad compartida. Es esencial que todos los involucrados tomen medidas proactivas para proteger la vida y la seguridad en las carreteras cubanas. La urgencia de abordar esta crisis no puede ser subestimada, y es imperativo que se tomen medidas decisivas para revertir esta tendencia preocupante y asegurar un futuro más seguro para todos.")
+
+
+    def likes():
+        st.subheader("¿Te gusta este artículo?")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            if st.button("👍 Me gusta"):
+                st.success("¡Gracias por tu feedback positivo!")
+
+        with col2:
+            if st.button("👎 No me gusta"):
+                st.error("¡Gracias por tu feedback negativo!")
+
+    likes()
+    def comentarios():
+        with st.form(key='comment_form'):
+            comment = st.text_area("Escribe tu comentario:")
+            submit_button = st.form_submit_button("Enviar Comentario")
+
+            if submit_button:
+                if comment:
+                    st.success("¡Gracias por tu comentario!")
+                else:
+                    st.error("Por favor, escribe un comentario antes de enviar.")
+
+    comentarios()
