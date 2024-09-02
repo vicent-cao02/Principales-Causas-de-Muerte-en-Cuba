@@ -67,7 +67,7 @@ with streamlit_analytics.track():
 
 
 
-    st.write("Las principales causas de defunción se agrupan en las siguientes categorías: enfermedades cardiovasculares (incluyendo cardiopatías isquémicas y accidentes cerebrovasculares), enfermedades respiratorias (como la enfermedad pulmonar obstructiva crónica e infecciones de las vías respiratorias inferiores, el Covid 19), las enfermedades hepáticas (cirrosis), las enfermedades metabólicas (la diabetes mellitus por tener un impacto significativo en la salud cardiovascular y estar relacionada con otras condiciones como la presión alterial alta, niveles elevados de colesterol, la obesidad entre otros), las enfermedades no intensionadas (como los accidentes de tránsito y las lesiones autoinflingida accidentalmente), y los tumores malignos (cáncer). En particular, el cáncer ha sido una de las principales causas de mortalidad a lo largo de los años, y experimentó un aumento significativo en el 2021, con una tasa de 240,9 muertes por cada 100,000 habitantes en un período afectado por la Covid-19. Este aumento subraya la necesidad de comprender la evolución a largo plazo y resaltar la importancia de desarrollar políticas de salud pública y estrategias de prevención adaptadas a estas realidades.")  
+    st.write("Las principales causas de defunción se agrupan en las siguientes categorías: enfermedades cardiovasculares (incluyendo cardiopatías isquémicas y accidentes cerebrovasculares), enfermedades respiratorias (como la enfermedad pulmonar obstructiva crónica e infecciones de las vías respiratorias inferiores, el Covid 19), las enfermedades hepáticas (cirrosis), las enfermedades metabólicas (la diabetes mellitus por tener un impacto significativo en la salud cardiovascular y estar relacionada con otras condiciones como la presión arterial alta, niveles elevados de colesterol, la obesidad entre otros), las enfermedades no intensionadas (como los accidentes de tránsito y las lesiones autoinflingida accidentalmente), y los tumores malignos (cáncer). En particular, el cáncer ha sido una de las principales causas de mortalidad a lo largo de los años, y experimentó un aumento significativo en el 2021, con una tasa de 240,9 muertes por cada 100,000 habitantes en un período afectado por la Covid-19. Este aumento subraya la necesidad de comprender la evolución a largo plazo y resaltar la importancia de desarrollar políticas de salud pública y estrategias de prevención adaptadas a estas realidades.")  
     st.plotly_chart(fig)
 
 
@@ -187,7 +187,7 @@ with streamlit_analytics.track():
 
     st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo. Resulta interesante resaltar que la mayoría de estas causas de muertes son no transmisibles, lo que sugiere una necesidad de abordar este tema causado en Cuba fundamentalmente por el alto consumo de tabaco en la población, lo que aumenta el riesgo de enfermedades cardiovasculares, cáncer y otras enfermedades no transmisibles.")
     st.title('Prevenir el riesgo de morir por Enfermedades No Transmisibles(ENT)')
-    st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En el 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muerte en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
+    st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En el 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muertes en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
     fig1 = go.Figure(data=[go.Bar(x=enfermedades, y=muertes_2022, marker_color='blue')])
 
     fig1.update_layout(
@@ -204,7 +204,7 @@ with streamlit_analytics.track():
 
     st.title("Enfermedades no Transmisibles con lentes de Género")
     st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
-    st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas a padecer de enfermedades no transmisibles y especialmente diabetes.")
+    st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas al padecer de enfermedades no transmisibles y especialmente diabetes.")
     def load_data():
         return pd.read_json('data/output1.json')
     data1 = load_data()
@@ -236,7 +236,7 @@ with streamlit_analytics.track():
     )
     st.plotly_chart(fig)
 
-    st.write("Este estudio propícia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
+    st.write("Este estudio propicia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
 
 
     def likes():
@@ -245,11 +245,11 @@ with streamlit_analytics.track():
         
         with col1:
             if st.button("👍 Me gusta"):
-                st.success("¡Gracias por tu feedback positivo!")
+                st.success("¡Gracias por tu opinión positiva! 😊")
 
         with col2:
             if st.button("👎 No me gusta"):
-                st.error("¡Gracias por tu feedback negativo!")
+                st.error("¡Gracias por tu opinión negativa! 😔")
 
     likes()
     def comentarios():
