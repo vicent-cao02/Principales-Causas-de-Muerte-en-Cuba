@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_analytics
+import streamlit_analytics
 import json
 import pandas as pd
 

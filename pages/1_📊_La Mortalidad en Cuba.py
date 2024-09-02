@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json
-import streamlit_analytics as streamlit_analytics  
+import streamlit_analytics
 # from streamlit_authenticator import Authenticate
 
 st.set_page_config(
