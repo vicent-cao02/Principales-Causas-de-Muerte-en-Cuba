@@ -86,7 +86,7 @@ with streamlit_analytics.track():
             for key, value in item.items():
                 if key != 'enfermedades':
                     df_list.append({'enfermedad': enfermedad, 'provincia': key, 'valor': float(value.replace(',', '.'))})
-        
+                        
         df = pd.DataFrame(df_list)
         return df
 
