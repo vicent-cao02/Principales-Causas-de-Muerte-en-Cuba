@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="📃",
 )
 with streamlit_analytics.track():
-    st.title("Impactos en la salud cubana")
+    st.markdown("""<h1 class=titulo>Impactos en la salud cubana</h1> <style> .titulo { font-size: 55px; text-align: center; } </style>""", unsafe_allow_html=True)
 
     st.subheader("La Mortalidad en Cuba: Un Estudio Revelador")
     st.write("Cuba, a pesar de su sistema de salud universal, enfrenta serios desafíos en mortalidad. Las principales causas de muerte incluyen enfermedades cardiovasculares, respiratorias, hepáticas y metabólicas, así como el cáncer. En 2021, el cáncer tuvo un aumento notable en las tasas de mortalidad, resaltando la necesidad de mejores estrategias de prevención y políticas de salud adaptadas. Además, el consumo de tabaco es un factor crítico que contribuye a muchas de estas enfermedades. Las visualizaciones interactivas ayudarán a explorar mejor estos comportamientos y entender cómo han cambiado con el tiempo.")
