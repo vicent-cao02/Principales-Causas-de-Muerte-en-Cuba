@@ -1,10 +1,11 @@
 import streamlit as st
 import streamlit_analytics
 
-st.title("Podcast: La Mortalidad en Cuba")
+st.title("Podcast: Covid-19")
 
 with streamlit_analytics.track():
-
+    audio_file = "./data/Podcats.mp3"
+    st.audio(audio_file, format="audio/mp3")
     
     def likes():
         st.subheader("¿Te gusta este artículo?")
