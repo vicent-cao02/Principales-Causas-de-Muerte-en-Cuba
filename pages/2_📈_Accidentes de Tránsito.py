@@ -3,7 +3,10 @@ import streamlit_analytics
 import plotly.express as px
 import pandas as pd
 
-
+st.set_page_config(
+    page_title="La Mortalidad en Cuba",
+    page_icon="📈",
+)
 with streamlit_analytics.track():
     st.title("Crisis en las Carreteras de Cuba: Un artículo sobre el Aumento de Accidentes de Tránsito.")
     st.image("data/bache.jpeg")
