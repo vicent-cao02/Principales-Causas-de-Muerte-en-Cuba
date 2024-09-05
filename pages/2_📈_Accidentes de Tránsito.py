@@ -32,8 +32,8 @@ with streamlit_analytics.track():
         if df[col].dtype == 'object':  
             df[col] = df[col].str.replace(',', '.').str.replace(' ', '').astype(float)
     fig = px.pie(df[:-1], names='Principales violaciones', values='Accidentes',
-                title='Distribución de la Tasa de mortalidad de los tumores en el organismo (2022)',
-                labels={'Tasa': 'Tasa de Mortalidad'},
+                title='Distribución de las principales violaciones de tránsito que provocan accidentes (2022)',
+                labels={'tasas': 'Violación'},
                 color_discrete_sequence=px.colors.sequential.Cividis)
     st.plotly_chart(fig)
     st.subheader("Iniciativas y Soluciones: Caminos hacia la Mejora")
