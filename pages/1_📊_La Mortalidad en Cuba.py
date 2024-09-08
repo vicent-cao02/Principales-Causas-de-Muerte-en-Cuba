@@ -13,7 +13,7 @@ st.set_page_config(
     page_title="La Mortalidad en Cuba",
     page_icon="📊",
 )
-st.title('La Mortalidad en Cuba: Un estudio revelador')
+st.title('La Mortalidad en Cuba: Un estudio revelador.')
 
 
 with streamlit_analytics.track():
@@ -186,7 +186,7 @@ with streamlit_analytics.track():
     muertes_2022 = df_2022['Número de Muertes']
 
     st.write("La visualización interactiva desarrollada en este proyecto permitirá a los usuarios explorar de manera intuitiva la evolución de estas causas de mortalidad, facilitando una comprensión más profunda de cómo han cambiado los perfiles de mortalidad en el país a lo largo del tiempo. Resulta interesante resaltar que la mayoría de estas causas de muertes son no transmisibles, lo que sugiere una necesidad de abordar este tema causado en Cuba fundamentalmente por el alto consumo de tabaco en la población, lo que aumenta el riesgo de enfermedades cardiovasculares, cáncer y otras enfermedades no transmisibles.")
-    st.title('Prevenir el riesgo de morir por Enfermedades No Transmisibles(ENT)')
+    st.title('Prevenir el riesgo de morir por Enfermedades No Transmisibles (ENT).')
     st.write("Las Enfermedades No Transmisibles (ENT) constituyen seis de las principales causas de mortalidad en Cuba. Estas incluyen tumores malignos, enfermedades cerebrovasculares, diabetes, cirrosis, enfermedades crónicas respiratorias y enfermedades de las arterias. En el 2022, estas enfermedades causaron un total de 423,3 muertes por cada 100,000 habitantes, representando el 40% de las principales causas de muertes en el país. Esta alta tasa de mortalidad destaca la magnitud del problema y subraya la necesidad urgente de estrategias de prevención y tratamiento efectivas.")
     fig1 = go.Figure(data=[go.Bar(x=enfermedades, y=muertes_2022, marker_color='blue')])
 
@@ -202,7 +202,7 @@ with streamlit_analytics.track():
 
 
 
-    st.title("Enfermedades no Transmisibles con lentes de Género")
+    st.title("Enfermedades no Transmisibles con lentes de género.")
     st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
     st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas al padecer de enfermedades no transmisibles y especialmente diabetes.")
     def load_data():

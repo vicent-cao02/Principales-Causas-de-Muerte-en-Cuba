@@ -19,10 +19,10 @@ with streamlit_analytics.track():
     st.subheader("Principales causas identificadas:")
     st.write("Infraestructura Deteriorada: Uno de los factores más críticos es el estado de las carreteras. Muchas vías en Cuba sufren de baches significativos, mala señalización y falta de iluminación. La carretera entre La Habana y Pinar del Río, por ejemplo, ha sido identificada como un punto caliente para los accidentes debido a su deterioro y diseño deficiente. El gobierno ha anunciado planes para reparar y actualizar estas rutas, pero los progresos han sido lentos.")
     st.write("Vehículos Obsoletos: La edad avanzada de la flota vehicular en Cuba también contribuye al problema. Muchos vehículos en circulación son antiguos y carecen de los estándares de seguridad modernos. Se estima que el 30% de los accidentes involucran vehículos que no han pasado las inspecciones técnicas necesarias. La falta de piezas de repuesto y mantenimiento adecuado exacerba este problema.")
-    st.write("Comportamiento de los Conductor y los peatones: El comportamiento imprudente de los conductores es otra causa significativa. Los datos muestran que el 35% de los accidentes están relacionados con el exceso de velocidad, mientras que el 20% se deben a la conducción bajo los efectos del alcohol. Las infracciones comunes incluyen el uso del teléfono móvil mientras se conduce y la falta de respeto a las señales de tránsito.")
+    st.write("Comportamiento de los conductores y los peatones: El comportamiento imprudente de los conductores es otra causa significativa. Los datos muestran que el 35% de los accidentes están relacionados con el exceso de velocidad, mientras que el 20% se deben a la conducción bajo los efectos del alcohol. Las infracciones comunes incluyen el uso del teléfono móvil mientras se conduce y la falta de respeto a las señales de tránsito.")
     st.write("Factores Climáticos: Las condiciones climáticas también juegan un papel importante. Las lluvias intensas, especialmente durante la temporada de huracanes, incrementan el riesgo de accidentes. En 2023, el 15% de los accidentes ocurrieron durante condiciones meteorológicas adversas, lo que subraya la necesidad de adaptar las infraestructuras y prácticas de conducción a estos desafíos.")
 
-    st.subheader("Impacto en la Sociedad: Consecuencias y Desafíos")
+    st.subheader("Impacto en la Sociedad: Consecuencias y Desafíos.")
     st.write("El aumento en los accidentes de tránsito tiene un profundo impacto en la sociedad cubana. Las familias afectadas enfrentan pérdidas trágicas y una carga emocional considerable. Los costos asociados con el tratamiento de lesiones y la rehabilitación afectan a los hospitales y al sistema de salud en general. La Red de Hospitales de Cuba ha informado un aumento del 20% en la demanda de servicios de emergencia relacionados con accidentes de tránsito.")
     st.write("Económicamente, los daños a vehículos y propiedades, junto con la pérdida de productividad laboral, representan una carga adicional para el país. El impacto también se refleja en la presión sobre los recursos del estado y la necesidad de inversiones urgentes en infraestructura y programas de prevención.")
     data = pd.read_json('data/output6.json')
@@ -36,7 +36,7 @@ with streamlit_analytics.track():
                 labels={'tasas': 'Violación'},
                 color_discrete_sequence=px.colors.sequential.Cividis)
     st.plotly_chart(fig)
-    st.subheader("Iniciativas y Soluciones: Caminos hacia la Mejora")
+    st.subheader("Iniciativas y Soluciones: Caminos hacia la Mejora.")
     st.write("Reparación y Modernización de Infraestructura: El gobierno ha lanzado un plan para reparar y modernizar las carreteras críticas, con una inversión estimada de $100 millones en los próximos tres años. Este plan incluye la repavimentación de rutas clave, mejora de la señalización y el fortalecimiento de la iluminación en áreas de alto riesgo.")
     st.write("Educación y Conciencia Vial: Las autoridades están intensificando las campañas de educación vial, enfocándose en el respeto a las normas de tránsito y los peligros del consumo de alcohol. Las campañas se están llevando a cabo a través de medios de comunicación, escuelas y comunidades, con el objetivo de cambiar el comportamiento de los conductores y peatones.")
     st.write("Aplicación de la Ley y Control: El refuerzo de la aplicación de las leyes de tránsito es crucial. Se están implementando controles más estrictos y sanciones más severas para infracciones relacionadas con el exceso de velocidad y la conducción bajo el efecto del alcohol. Además, se está aumentando la presencia de patrullas de tránsito en áreas identificadas como de alto riesgo.")
@@ -52,11 +52,11 @@ with streamlit_analytics.track():
         
         with col1:
             if st.button("👍 Me gusta"):
-                st.success("¡Gracias por tu feedback positivo!")
+                st.success("¡Gracias por tu opinión positiva! 😊")
 
         with col2:
             if st.button("👎 No me gusta"):
-                st.error("¡Gracias por tu feedback negativo!")
+                st.error("¡Gracias por tu opinión negativa! 😔")
 
     likes()
     def comentarios():

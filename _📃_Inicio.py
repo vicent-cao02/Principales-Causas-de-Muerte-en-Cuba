@@ -53,7 +53,15 @@ with streamlit_analytics.track():
                 text-align: center;
                 }
             </style>""",
-        unsafe_allow_html=True)
+    unsafe_allow_html=True)
+    st.markdown(
+    """<h3 class = 'nombre'>Brenda Valdés Morales</h3> <style>
+            .nombre{
+            font-size: 35px;
+            text-align: center;
+            }
+        </style>""",
+    unsafe_allow_html=True)
     st.markdown(
         """<h1 class = 'universidad'>Universidad de la Habana</h1> 
             <style>
@@ -89,11 +97,11 @@ with streamlit_analytics.track():
         
         with col1:
             if st.button("👍 Me gusta"):
-                st.success("¡Gracias por tu feedback positivo!")
+                st.success("¡Gracias por tu opinión positiva! 😊")
 
         with col2:
             if st.button("👎 No me gusta"):
-                st.error("¡Gracias por tu feedback negativo!")
+                st.error("¡Gracias por tu opinión negativa! 😔")
 
     likes()
     def comentarios():
