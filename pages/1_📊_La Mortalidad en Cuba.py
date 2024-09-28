@@ -137,6 +137,70 @@ with streamlit_analytics.track():
     fig = plot_map(df, geojson, selected_enfermedades)
     st.plotly_chart(fig)
 
+    data = pd.read_json('./data/output1.json')
+    df = pd.DataFrame(data)
+
+    df['Tasas masculinas '] = df['Tasas masculinas '].str.replace(',', '.').astype(float)
+    df['Tasas femeninas'] = df['Tasas femeninas'].str.replace(',', '.').astype(float)
+    df['Ambos sexos'] = df['Ambos sexos'].astype(float)
+
+    años = df['Anos'].unique()
+    año_seleccionado = st.selectbox("Selecciona el año:", años)
+
+    sexo_seleccionado = st.selectbox("Selecciona el sexo:", ["Masculino", "Femenino", "Ambos sexos"])
+
+    df_filtrado = df[df['Anos'] == año_seleccionado]
+
+    if sexo_seleccionado == "Masculino":
+        fig = px.scatter(
+            df_filtrado,
+            x='Enfermedades',
+            y='Tasas masculinas ',
+            size='Tasas masculinas ',
+            color='Enfermedades',
+            hover_name='Enfermedades',
+            hover_data={'Tasas masculinas ': True},
+            title=f'Tasas de Defunciones (Masculinos) en {año_seleccionado}',
+            labels={'Tasas masculinas ': 'Tasa de Defunciones (Masculinos)'},
+            size_max=60
+        )
+    elif sexo_seleccionado == "Femenino":
+        fig = px.scatter(
+            df_filtrado,
+            x='Enfermedades',
+            y='Tasas femeninas',
+            size='Tasas femeninas',
+            color='Enfermedades',
+            hover_name='Enfermedades',
+            hover_data={'Tasas femeninas': True},
+            title=f'Tasas de Defunciones (Femeninos) en {año_seleccionado}',
+            labels={'Tasas femeninas': 'Tasa de Defunciones (Femeninos)'},
+            size_max=60
+        )
+    else:  
+        fig = px.scatter(
+            df_filtrado,
+            x='Enfermedades',
+            y='Ambos sexos',
+            size='Ambos sexos',
+            color='Enfermedades',
+            hover_name='Enfermedades',
+            hover_data={'Ambos sexos': True},
+            title=f'Tasas de Defunciones (Ambos Sexos) en {año_seleccionado}',
+            labels={'Ambos sexos': 'Tasa de Defunciones (Ambos Sexos)'},
+            size_max=60
+        )
+
+    fig.update_layout(
+        xaxis_visible=False,
+        yaxis_visible=False,
+        showlegend=False,
+        margin=dict(l=0, r=0, t=30, b=0) 
+    )
+
+    fig.update_traces(marker=dict(line=dict(width=2, color='DarkSlateGrey')), selector=dict(mode='markers'))
+
+    st.plotly_chart(fig)
     st.write("El cáncer es un término genérico que designa un amplio grupo de enfermedades que pueden afectar a cualquier parte del organismo; también se utilizan los términos tumores malignos o neoplasias malignas. Constituyen un serio problema de salud para la humanidad y según el artículo publicado por la revista [Scielo](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1028-48182024000100005#:~:text=Los%20tumores%20malignos%20constituyen%20la,de%20muerte%20en%20el%20pa%C3%ADs.), 'Mortalidad por tumores malignos' se estima que se incremente en un 47% de los casos antes del 2040. Los hábitos, estilos de vida, el envejecimiento de la población y las enfermedades infecciosas, son factores fundamentales de este incremento. ")
 
 
@@ -153,16 +217,57 @@ with streamlit_analytics.track():
     st.pyplot(fig)
 
     st.write("Se toma como referencia el año 2021 por ser este precisamente el que marcó el tope en cifras de mortalidad prevaleciendo la edad de la senectud por ser los principales vulnerables.")
+   
     data = pd.read_json('data/output3.json')
 
     df = pd.DataFrame(data)
-    for col in df.columns[1:]:  
-        if df[col].dtype == 'object':  
-            df[col] = df[col].str.replace(',', '.').str.replace(' ', '').astype(float)
-    fig = px.pie(df[:-1], names='Localizacion', values='Tasa',
-                title='Distribución de la Tasa de mortalidad de los tumores en el organismo (2022)',
+
+    years = df["Annos"].unique()
+    selected_year = st.selectbox("Selecciona un año", years)
+
+    def clean_and_convert(column):
+        column = column.str.replace(',', '.', regex=False).str.replace(' ', '', regex=False)
+        return pd.to_numeric(column, errors='coerce')
+
+    df['Tasa'] = clean_and_convert(df['Tasa'])
+
+    filtered_df = df[df['Annos'] == selected_year]
+
+    fig = px.pie(filtered_df[:-1], names='Localizacion', values='Tasa',
+                title=f'Distribución de la Tasa de mortalidad de los tumores en el organismo {selected_year}',
                 labels={'Tasa': 'Tasa de Mortalidad'},
-                color_discrete_sequence=px.colors.sequential.Cividis)
+                color_discrete_sequence=px.colors.sequential.Cividis
+                )
+
+    st.plotly_chart(fig)
+
+    data = pd.read_json('./data/output7.json')
+    df = pd.DataFrame(data)
+
+    df['Defunciones Masculinas '] = df['Defunciones Masculinas '].str.replace(" ", "").astype(int)
+    df['Defunciones Femeninas '] = df['Defunciones Femeninas '].str.replace(" ", "").astype(int)
+
+    years = df['Annos'].unique()
+    sex_options = ['Masculino', 'Femenino']
+
+    selected_year = st.selectbox("Selecciona un año", years)
+    selected_sex = st.selectbox("Selecciona un sexo", sex_options)
+
+    if selected_sex == 'Masculino':
+        df_filtered = df[df['Annos'] == selected_year].copy()
+        df_filtered['Defunciones'] = df_filtered['Defunciones Masculinas ']
+    else:
+        df_filtered = df[df['Annos'] == selected_year].copy()
+        df_filtered['Defunciones'] = df_filtered['Defunciones Femeninas ']
+
+    fig = px.treemap(
+        df_filtered,
+        path=['Localozaciones'],
+        values='Defunciones',
+        color='Defunciones',
+        color_continuous_scale="Viridis",
+        title=f"Defunciones por Localización en {selected_year} ({selected_sex})",
+    )
     st.plotly_chart(fig)
 
     def load_data():
@@ -205,35 +310,66 @@ with streamlit_analytics.track():
     st.title("Enfermedades no Transmisibles con lentes de género.")
     st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
     st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas al padecer de enfermedades no transmisibles y especialmente diabetes.")
+    import pandas as pd
+    import pandas as pd
+    import plotly.graph_objects as go
+    import streamlit as st
+
     def load_data():
         return pd.read_json('data/output1.json')
-    data1 = load_data()
 
+    data1 = load_data()
     df1 = pd.DataFrame(data1)
-    excluir_enfermedades = ["COVID-19", "Accidentes ","Influenza y neumonia","Lesiones autoinflingidas accidentalmente","Influenza y neumonia ","Lesiones autoinfligidas intencionalmente "]
+
+    # Excluir enfermedades específicas
+    excluir_enfermedades = [
+        "COVID-19", 
+        "Accidentes ", 
+        "Influenza y neumonia", 
+        "Lesiones autoinfligidas accidentalmente", 
+        "Influenza y neumonia", 
+        "Lesiones autoinfligidas intencionalmente "
+    ]
     df1 = df1[~df1['Enfermedades'].isin(excluir_enfermedades)]
+
+    # Selector de años
+    years = df1["Anos"].unique()
+    selected_year = st.selectbox("Selecciona un año", years, key="year_selector")
+
+    # Filtrar los datos por el año seleccionado
+    df_filtered = df1[df1['Anos'] == selected_year]
+
+    # Limpiar y convertir las tasas a tipo float
+    df_filtered['Tasas masculinas '] = pd.to_numeric(df_filtered['Tasas masculinas '].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
+    df_filtered['Tasas femeninas'] = pd.to_numeric(df_filtered['Tasas femeninas'].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
+
+    # Crear la figura
     fig = go.Figure()
 
+    # Agregar trazas para tasas masculinas y femeninas
     fig.add_trace(go.Bar(
-        x=df1['Enfermedades'],
-        y=df1['Tasas masculinas '],
+        x=df_filtered['Enfermedades'],
+        y=df_filtered['Tasas masculinas '],
         name='Tasas masculinas',
         marker_color='blue'
     ))
 
     fig.add_trace(go.Bar(
-        x=df1['Enfermedades'],
-        y=df1['Tasas femeninas'],
+        x=df_filtered['Enfermedades'],
+        y=df_filtered['Tasas femeninas'],
         name='Tasas femeninas',
         marker_color='#D81B60'
     ))
 
+    # Configurar el diseño del gráfico
     fig.update_layout(
-        title='Tasas de mortalidad por 100,000 habitantes por Enfermedad y Sexo en 2022',
+        title=f'Tasas de mortalidad por 100,000 habitantes por Enfermedad y Sexo en {selected_year}',
         xaxis_title='Enfermedades',
         yaxis_title='Número de Tasas de mortalidad',
         barmode='group'
     )
+
+    # Mostrar el gráfico en Streamlit
     st.plotly_chart(fig)
 
     st.write("Este estudio propicia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
@@ -264,3 +400,4 @@ with streamlit_analytics.track():
                     st.error("Por favor, escribe un comentario antes de enviar.")
 
     comentarios()
+
