@@ -1,66 +1,182 @@
 [
-
     {
+        "Anos": 2022,
+        "Enfermedades": "Enfermedades del corazon",
+        "Defunciones masculinas": "17 216",
+        "Tasas masculinas ": "312,7",
+        "Defunciones femeninas ": "15 656",
+        "Tasas femeninas": "280,9",
+        "Ambos sexos": "296.7"
+    },
+    {
+        "Anos": 2022,
         "Enfermedades": "Tumores malignos",
         "Defunciones masculinas": "14 250",
         "Tasas masculinas ": "258,8",
         "Defunciones femeninas ": "10 941",
-        "Tasas femeninas": "196,3"
+        "Tasas femeninas": "196,3",
+        "Ambos sexos": "227.3"
     },
     {
+        "Anos": 2022,
         "Enfermedades": "Enfermedades cerebrovasculares ",
         "Defunciones masculinas": "5 790",
         "Tasas masculinas ": "105,2",
         "Defunciones femeninas ": "5 593",
-        "Tasas femeninas": "100,4"
+        "Tasas femeninas": "100,4",
+        "Ambos sexos": "102.7"
     },
     {
+        "Anos": 2022,
         "Enfermedades": "Influenza y neumonia ",
         "Defunciones masculinas": "5 401",
         "Tasas masculinas ": "98,1",
         "Defunciones femeninas ": "4 916",
-        "Tasas femeninas": "88,2"
+        "Tasas femeninas": "88,2",
+        "Ambos sexos": "93.1"
     },
     {
+        "Anos": 2022,
         "Enfermedades": "Accidentes ",
         "Defunciones masculinas": "2 919",
         "Tasas masculinas ": "53,0",
         "Defunciones femeninas ": "2 800",
-        "Tasas femeninas": "50,2"
+        "Tasas femeninas": "50,2",
+        "Ambos sexos": "51.6"
     },
     {
-        "Enfermedades": "Enfermedades cronicas de las vias respiratorias",
+        "Anos": 2022,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
         "Defunciones masculinas": "2 242",
         "Tasas masculinas ": "40,7",
         "Defunciones femeninas ": "1 991",
-        "Tasas femeninas": "35,7"
+        "Tasas femeninas": "35,7",
+        "Ambos sexos": "38.2"
     },
     {
-        "Enfermedades": "Enfermedades de las arterias",
+        "Anos": 2022,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
         "Defunciones masculinas": "1 481",
         "Tasas masculinas ": "26,9",
         "Defunciones femeninas ": "1 376",
-        "Tasas femeninas": "24,7"
+        "Tasas femeninas": "24,7",
+        "Ambos sexos": "25.7"
     },
     {
+        "Anos": 2022,
         "Enfermedades": "Diabetes mellitus",
         "Defunciones masculinas": "1 065",
         "Tasas masculinas ": "19,3",
         "Defunciones femeninas ": "1 445",
-        "Tasas femeninas": "25,9"
+        "Tasas femeninas": "25,9",
+        "Ambos sexos": "22.6"
     },
     {
-        "Enfermedades": "Cirrosis",
+        "Anos": 2022,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
         "Defunciones masculinas": "1 395",
         "Tasas masculinas ": "25,3",
         "Defunciones femeninas ": "429",
-        "Tasas femeninas": "7,7"
+        "Tasas femeninas": "7,7",
+        "Ambos sexos": "16.4"
     },
     {
+        "Anos": 2022,
         "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
         "Defunciones masculinas": "1 193",
         "Tasas masculinas ": "21,7",
         "Defunciones femeninas ": "239",
-        "Tasas femeninas": "4,3"
+        "Tasas femeninas": "4,3",
+        "Ambos sexos": "12.2"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Enfermedades del corazon",
+        "Defunciones masculinas": "23 730",
+        "Tasas masculinas ": "426,8",
+        "Defunciones femeninas ": "21 050",
+        "Tasas femeninas": "374,1",
+        "Ambos sexos": "400.3"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Tumores malignos",
+        "Defunciones masculinas": "15 546",
+        "Tasas masculinas ": "279,6",
+        "Defunciones femeninas ": "11 403",
+        "Tasas femeninas": "202,7",
+        "Ambos sexos": "240.9"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Defunciones masculinas": "6 978",
+        "Tasas masculinas ": "125,5",
+        "Defunciones femeninas ": "6 309",
+        "Tasas femeninas": "112,1",
+        "Ambos sexos": "118.7"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Influenza y neumonia ",
+        "Defunciones masculinas": "14 301",
+        "Tasas masculinas ": "257,2",
+        "Defunciones femeninas ": "10 910",
+        "Tasas femeninas": "193,9",
+        "Ambos sexos": "225.3"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Accidentes ",
+        "Defunciones masculinas": "2 858",
+        "Tasas masculinas ": "51,4",
+        "Defunciones femeninas ": "3 038",
+        "Tasas femeninas": "54,0",
+        "Ambos sexos": "52.7"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Defunciones masculinas": "3 857",
+        "Tasas masculinas ": "69,4",
+        "Defunciones femeninas ": "2 869",
+        "Tasas femeninas": "51,0",
+        "Ambos sexos": "60.1"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Defunciones masculinas": "2 135",
+        "Tasas masculinas ": "38,4",
+        "Defunciones femeninas ": "1 925",
+        "Tasas femeninas": "34,2",
+        "Ambos sexos": "36.2"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Diabetes mellitus",
+        "Defunciones masculinas": "1 746",
+        "Tasas masculinas ": "31,4",
+        "Defunciones femeninas ": "2 224",
+        "Tasas femeninas": "39,5",
+        "Ambos sexos": "35.4"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Defunciones masculinas": "1 636",
+        "Tasas masculinas ": "29,4",
+        "Defunciones femeninas ": "405",
+        "Tasas femeninas": "7,2",
+        "Ambos sexos": "18.2"
+    },
+    {
+        "Anos": 2021,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Defunciones masculinas": "1 476",
+        "Tasas masculinas ": "26,5",
+        "Defunciones femeninas ": "322",
+        "Tasas femeninas": "5,7",
+        "Ambos sexos": "16.0"
     }
 ]

@@ -1,90 +1,212 @@
 [
     {
-        "Localizacion": "Traquea, bronquios y pulmon ",
+        "Annos": 2022,
+        "Localizacion": "Traquea bronquios y pulmon ",
         "Tasa": "44,7"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Prostata",
         "Tasa": "61,8"
     },
     {
-        "Localizacion": "Intestino, excepto el recto ",
+        "Annos": 2022,
+        "Localizacion": "Intestino excepto el recto ",
         "Tasa": "22,9"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Mama de la mujer",
         "Tasa": "31,5"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Laringe ",
         "Tasa": "8,9"
     },
     {
-        "Localizacion": "Labio, cavidad bucal y faringe ",
+        "Annos": 2022,
+        "Localizacion": "Labio cavidad bucal y faringe ",
         "Tasa": "8,7"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Vias urinarias ",
         "Tasa": "8,6"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Pancreas ",
         "Tasa": "8,0"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
         "Tasa": "7,7"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Estomago ",
         "Tasa": "7,4"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Esofago ",
         "Tasa": "7,2"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Higado y vias biliares intrahepaticas ",
         "Tasa": "7,1"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Otras partes del utero y las no especificadas ",
         "Tasa": "13,3"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Encefalo ",
         "Tasa": "5,4"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Piel ",
         "Tasa": "5,4"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Cuello de utero ",
         "Tasa": "9,9"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Leucemia ",
         "Tasa": "4,3"
     },
     {
-        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
+        "Annos": 2022,
+        "Localizacion": "Recto porcion rectosigmoidea y ano ",
         "Tasa": "3,5"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Ovarios",
         "Tasa": "6,6"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Huesos y cartilagos articulares ",
         "Tasa": "1,8"
     },
     {
+        "Annos": 2022,
         "Localizacion": "Resto de las localizaciones",
         "Tasa": "14,3"
     },
     {
-        "Localizacion": "Total",
-        "Tasa": "227,4"
+        "Annos": 2021,
+        "Localizacion": "Traquea bronquios y pulmon ",
+        "Tasa": "47,7"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Prostata",
+        "Tasa": "73,1"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Intestino, excepto el recto ",
+        "Tasa": "24,2"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Mama de la mujer",
+        "Tasa": "33,9"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Laringe ",
+        "Tasa": "9,0"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Labio cavidad bucal y faringe ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Vias urinarias ",
+        "Tasa": "9,1"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Pancreas ",
+        "Tasa": "8,3"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Tasa": "8,7"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Estomago ",
+        "Tasa": "7,8"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Esofago ",
+        "Tasa": "7,2"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Higado y vias biliares intrahepaticas ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Otras partes del utero y las no especificadas ",
+        "Tasa": "12,9"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Encefalo ",
+        "Tasa": "5,6"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Piel ",
+        "Tasa": "5,3"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Cuello de utero ",
+        "Tasa": "9,7"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Leucemia ",
+        "Tasa": "5,2"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Recto porcion rectosigmoidea y ano ",
+        "Tasa": "3,6"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Ovarios",
+        "Tasa": "6,0"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Huesos y cartilagos articulares ",
+        "Tasa": "1,9"
+    },
+    {
+        "Annos": 2021,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "13,8"
     }
 ]
