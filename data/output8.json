@@ -1,0 +1,74 @@
+[
+    {
+        "Annos": 2022,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "25 191",
+        "Cantidad de especialistas": 695
+    },
+    {
+        "Annos": 2022,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "11 383",
+        "Cantidad de especialistas": 468
+    },
+    {
+        "Annos": 2022,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "4 233",
+        "Cantidad de especialistas": 96
+    },
+    {
+        "Annos": 2022,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 857",
+        "Cantidad de especialistas": 519
+    },
+    {
+        "Annos": 2022,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 510",
+        "Cantidad de especialistas": 476
+    },
+    {
+        "Annos": 2022,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 824",
+        "Cantidad de especialistas": 557
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "26 949",
+        "Cantidad de especialistas": 1
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "13 287",
+        "Cantidad de especialistas": 1
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "5 896",
+        "Cantidad de especialistas": 1
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "4 060",
+        "Cantidad de especialistas": 1
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "3 970",
+        "Cantidad de especialistas": 1
+    },
+    {
+        "Annos": 2021,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "2 041",
+        "Cantidad de especialistas": 1
+    }
+]

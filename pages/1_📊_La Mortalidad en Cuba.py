@@ -310,10 +310,6 @@ with streamlit_analytics.track():
     st.title("Enfermedades no Transmisibles con lentes de género.")
     st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
     st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas al padecer de enfermedades no transmisibles y especialmente diabetes.")
-    import pandas as pd
-    import pandas as pd
-    import plotly.graph_objects as go
-    import streamlit as st
 
     def load_data():
         return pd.read_json('data/output1.json')
@@ -321,7 +317,6 @@ with streamlit_analytics.track():
     data1 = load_data()
     df1 = pd.DataFrame(data1)
 
-    # Excluir enfermedades específicas
     excluir_enfermedades = [
         "COVID-19", 
         "Accidentes ", 
@@ -332,21 +327,16 @@ with streamlit_analytics.track():
     ]
     df1 = df1[~df1['Enfermedades'].isin(excluir_enfermedades)]
 
-    # Selector de años
     years = df1["Anos"].unique()
     selected_year = st.selectbox("Selecciona un año", years, key="year_selector")
 
-    # Filtrar los datos por el año seleccionado
-    df_filtered = df1[df1['Anos'] == selected_year]
+    df_filtered = df1[df1['Anos'] == selected_year ]
 
-    # Limpiar y convertir las tasas a tipo float
     df_filtered['Tasas masculinas '] = pd.to_numeric(df_filtered['Tasas masculinas '].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
     df_filtered['Tasas femeninas'] = pd.to_numeric(df_filtered['Tasas femeninas'].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
 
-    # Crear la figura
     fig = go.Figure()
 
-    # Agregar trazas para tasas masculinas y femeninas
     fig.add_trace(go.Bar(
         x=df_filtered['Enfermedades'],
         y=df_filtered['Tasas masculinas '],
@@ -361,15 +351,12 @@ with streamlit_analytics.track():
         marker_color='#D81B60'
     ))
 
-    # Configurar el diseño del gráfico
     fig.update_layout(
         title=f'Tasas de mortalidad por 100,000 habitantes por Enfermedad y Sexo en {selected_year}',
         xaxis_title='Enfermedades',
         yaxis_title='Número de Tasas de mortalidad',
         barmode='group'
     )
-
-    # Mostrar el gráfico en Streamlit
     st.plotly_chart(fig)
 
     st.write("Este estudio propicia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
@@ -399,5 +386,49 @@ with streamlit_analytics.track():
                 else:
                     st.error("Por favor, escribe un comentario antes de enviar.")
 
-    comentarios()
+        comentarios()
 
+    import pandas as pd
+    import streamlit as st
+    import matplotlib.pyplot as plt
+    import json
+
+    # Cargar datos desde el archivo JSON
+    with open('./data/output8.json', 'r') as f:
+        data = json.load(f)
+
+    # Convertir a DataFrame
+    df = pd.DataFrame(data)
+
+    # Limpiar los datos
+    df['Cantidad de defunciones '] = df['Cantidad de defunciones '].str.replace(" ", "").astype(int)
+    df['Cantidad de especialistas'] = df['Cantidad de especialistas'].astype(int)
+
+    # Selección de año
+    anios = df['Annos'].unique()
+    anio_seleccionado = st.selectbox("Selecciona un año:", anios)
+
+    # Filtrar DataFrame por el año seleccionado
+    df_anio = df[df['Annos'] == anio_seleccionado]
+
+    # Selección de enfermedad
+    enfermedades = df_anio['enfermedades'].unique()
+    enfermedad_seleccionada = st.selectbox("Selecciona una enfermedad:", enfermedades)
+
+    # Filtrar DataFrame por la enfermedad seleccionada
+    df_enfermedad = df_anio[df_anio['enfermedades'] == enfermedad_seleccionada]
+
+    # Crear gráfico
+    fig, ax = plt.subplots(figsize=(8, 5))
+
+    # Graficar defunciones y especialistas
+    ax.bar(['Defunciones', 'Especialistas'], 
+        [df_enfermedad['Cantidad de defunciones '].values[0], 
+            df_enfermedad['Cantidad de especialistas'].values[0]], 
+        color=['red', 'blue'], alpha=0.7)
+
+    ax.set_ylabel('Cantidad')
+    ax.set_title(f'Cantidad de Defunciones vs Especialistas en {enfermedad_seleccionada} ({anio_seleccionado})')
+
+    # Mostrar gráfico en Streamlit
+    st.pyplot(fig)
