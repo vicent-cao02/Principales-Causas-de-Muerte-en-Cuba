@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-# import streamlit.components.v1 as components
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json
+import datetime
 import streamlit_analytics
-# from streamlit_authenticator import Authenticate
+
 
 st.set_page_config(
     page_title="La Mortalidad en Cuba",
@@ -432,3 +432,62 @@ with streamlit_analytics.track():
 
     # Mostrar gráfico en Streamlit
     st.pyplot(fig)
+    import pandas as pd
+    import streamlit as st
+    import plotly.express as px
+
+    # Cargar los datos
+    data = pd.read_json('./data/output7.json')
+    df = pd.DataFrame(data)
+
+    # Limpiar los nombres de las columnas (quitar espacios en blanco)
+    df.columns = df.columns.str.strip()
+
+    # Limpiar y convertir columnas
+    df['Defunciones Masculinas'] = df['Defunciones Masculinas'].str.replace(" ", "").astype(int)
+    df['Defunciones Femeninas'] = df['Defunciones Femeninas'].str.replace(" ", "").astype(int)
+    df['Tasa masculina'] = df['Tasa masculina'].str.replace(",", ".").astype(float)
+    df['Tasa femeninas'] = df['Tasa femeninas'].str.replace(",", ".").astype(float)
+
+    # Obtener los años únicos
+    years = df['Annos'].unique()
+
+    # Selector para año inicial y final
+    year_start = st.selectbox("Selecciona un año inicial", sorted(years))
+    year_end = st.selectbox("Selecciona un año final", sorted(years), index=len(years)-1)
+
+    # Selector para sexo
+    sexo = st.selectbox("Selecciona el sexo", ["Masculino", "Femenino"])
+
+    # Filtrar los años intermedios
+    df_filtered = df[(df['Annos'] >= year_start) & (df['Annos'] <= year_end)]
+
+    # Sumar las tasas por cada localización según el sexo seleccionado
+    if sexo == "Masculino":
+        suma_tasas = df_filtered.groupby('Localozaciones').agg(
+            Suma_Tasa=('Tasa masculina', 'sum')
+        ).reset_index()
+        title = f"Tasa de defunciones masculinas de {year_start} a {year_end}"
+    else:
+        suma_tasas = df_filtered.groupby('Localozaciones').agg(
+            Suma_Tasa=('Tasa femeninas', 'sum')
+        ).reset_index()
+        title = f"Tasa de defunciones femeninas de {year_start} a {year_end}"
+
+    # Mostrar resultados
+    st.write("Suma de las tasas por localización:")
+    # st.dataframe(suma_tasas)
+
+    # Graficar resultados como un treemap
+    fig = px.treemap(
+        suma_tasas,
+        path=['Localozaciones'],
+        values='Suma_Tasa',
+        title=title,
+        hover_data={'Suma_Tasa': True}  # Muestra la suma de tasas en el tooltip
+    )
+
+    # Personalizar el tooltip
+    fig.update_traces(hovertemplate='Localización: %{label}<br>Suma de tasas: %{value:.2f}')
+
+    st.plotly_chart(fig)
