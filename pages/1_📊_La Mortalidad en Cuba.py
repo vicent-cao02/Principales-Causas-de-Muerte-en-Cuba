@@ -240,34 +240,45 @@ with streamlit_analytics.track():
                 )
 
     st.plotly_chart(fig)
-
+    
     data = pd.read_json('./data/output7.json')
     df = pd.DataFrame(data)
 
-    df['Defunciones Masculinas '] = df['Defunciones Masculinas '].str.replace(" ", "").astype(int)
-    df['Defunciones Femeninas '] = df['Defunciones Femeninas '].str.replace(" ", "").astype(int)
+    df["Defunciones Masculinas "] = pd.to_numeric(df["Defunciones Masculinas "].str.replace(" ", "").str.replace(",", ""), errors='coerce')
+    df['Defunciones Femeninas '] = pd.to_numeric(df['Defunciones Femeninas '].str.replace(" ", "").str.replace(",", ""), errors='coerce')
+    df['Tasa masculina'] = pd.to_numeric(df['Tasa masculina'].str.replace(",", "."), errors='coerce')
+    df['Tasa femeninas'] = pd.to_numeric(df['Tasa femeninas'].str.replace(",", "."), errors='coerce')
 
     years = df['Annos'].unique()
-    sex_options = ['Masculino', 'Femenino']
+    
+    year_start = st.selectbox("Selecciona un año inicial", sorted(years))
+    year_end = st.selectbox("Selecciona un año final", sorted(years), index=len(years)-1)
 
-    selected_year = st.selectbox("Selecciona un año", years)
-    selected_sex = st.selectbox("Selecciona un sexo", sex_options)
+    sexo = st.selectbox("Selecciona el sexo", ["Masculino", "Femenino"])
 
-    if selected_sex == 'Masculino':
-        df_filtered = df[df['Annos'] == selected_year].copy()
-        df_filtered['Defunciones'] = df_filtered['Defunciones Masculinas ']
+    df_filtered = df[(df['Annos'] >= year_start) & (df['Annos'] <= year_end)].dropna()
+
+    if sexo == "Masculino":
+        suma_tasas = df_filtered.groupby('Localozaciones').agg(
+            Suma_Tasa=('Tasa masculina', 'sum')
+        ).reset_index()
+        title = f"Tasa de defunciones masculinas de {year_start} a {year_end}"
     else:
-        df_filtered = df[df['Annos'] == selected_year].copy()
-        df_filtered['Defunciones'] = df_filtered['Defunciones Femeninas ']
+        suma_tasas = df_filtered.groupby('Localozaciones').agg(
+            Suma_Tasa=('Tasa femeninas', 'sum')
+        ).reset_index()
+        title = f"Tasa de defunciones femeninas de {year_start} a {year_end}"
 
     fig = px.treemap(
-        df_filtered,
+        suma_tasas,
         path=['Localozaciones'],
-        values='Defunciones',
-        color='Defunciones',
-        color_continuous_scale="Viridis",
-        title=f"Defunciones por Localización en {selected_year} ({selected_sex})",
+        values='Suma_Tasa',
+        title=title,
+        hover_data={'Suma_Tasa': True} 
     )
+
+    fig.update_traces(hovertemplate='Localización: %{label}<br>Suma de tasas: %{value:.2f}')
+
     st.plotly_chart(fig)
 
     def load_data():
@@ -359,6 +370,37 @@ with streamlit_analytics.track():
     )
     st.plotly_chart(fig)
 
+
+    with open('./data/output8.json', 'r') as f:
+        data = json.load(f)
+
+    df = pd.DataFrame(data)
+
+    df['Cantidad de defunciones '] = df['Cantidad de defunciones '].str.replace(" ", "").astype(int)
+    df['Cantidad de especialistas'] = df['Cantidad de especialistas'].astype(int)
+
+    enfermedades = df['enfermedades'].unique()
+    enfermedad_seleccionada = st.selectbox("Selecciona una enfermedad:", enfermedades, key="selexbox")
+
+    df_enfermedad = df[df['enfermedades'] == enfermedad_seleccionada]
+
+    anios = df_enfermedad['Annos'].unique()
+
+    anio_seleccionado = st.slider("Selecciona un año:", min_value=int(anios.min()), max_value=int(anios.max()), value=int(anios.min()))
+
+    df_anio = df_enfermedad[df_enfermedad['Annos'] == anio_seleccionado]
+
+    fig = px.bar(
+        x=['Defunciones', 'Especialistas'],
+        y=[df_anio['Cantidad de defunciones '].values[0], df_anio['Cantidad de especialistas'].values[0]],
+        color=['Defunciones', 'Especialistas'],
+        labels={'x': 'Categoría', 'y': 'Cantidad'},
+        title=f'Cantidad de Defunciones vs Especialistas en {enfermedad_seleccionada} ({anio_seleccionado})'
+    )
+
+    st.plotly_chart(fig)
+
+
     st.write("Este estudio propicia una visión importante sobre las causas de muerte en Cuba. Sin embargo es fundamental continuar la investigación para profundizar en la comprensión de las tendencias y los factores que contribuyen a la mortalidad por enfermedades no transmisibles. La aplicación de herramientas de ciencia de datos puede proporcionar información valiosa para el desarrollo de políticas públicas que aborden efectivamente los desafíos de la salud en Cuba.")
 
 
@@ -386,108 +428,4 @@ with streamlit_analytics.track():
                 else:
                     st.error("Por favor, escribe un comentario antes de enviar.")
 
-        comentarios()
-
-    import pandas as pd
-    import streamlit as st
-    import matplotlib.pyplot as plt
-    import json
-
-    # Cargar datos desde el archivo JSON
-    with open('./data/output8.json', 'r') as f:
-        data = json.load(f)
-
-    # Convertir a DataFrame
-    df = pd.DataFrame(data)
-
-    # Limpiar los datos
-    df['Cantidad de defunciones '] = df['Cantidad de defunciones '].str.replace(" ", "").astype(int)
-    df['Cantidad de especialistas'] = df['Cantidad de especialistas'].astype(int)
-
-    # Selección de año
-    anios = df['Annos'].unique()
-    anio_seleccionado = st.selectbox("Selecciona un año:", anios)
-
-    # Filtrar DataFrame por el año seleccionado
-    df_anio = df[df['Annos'] == anio_seleccionado]
-
-    # Selección de enfermedad
-    enfermedades = df_anio['enfermedades'].unique()
-    enfermedad_seleccionada = st.selectbox("Selecciona una enfermedad:", enfermedades)
-
-    # Filtrar DataFrame por la enfermedad seleccionada
-    df_enfermedad = df_anio[df_anio['enfermedades'] == enfermedad_seleccionada]
-
-    # Crear gráfico
-    fig, ax = plt.subplots(figsize=(8, 5))
-
-    # Graficar defunciones y especialistas
-    ax.bar(['Defunciones', 'Especialistas'], 
-        [df_enfermedad['Cantidad de defunciones '].values[0], 
-            df_enfermedad['Cantidad de especialistas'].values[0]], 
-        color=['red', 'blue'], alpha=0.7)
-
-    ax.set_ylabel('Cantidad')
-    ax.set_title(f'Cantidad de Defunciones vs Especialistas en {enfermedad_seleccionada} ({anio_seleccionado})')
-
-    # Mostrar gráfico en Streamlit
-    st.pyplot(fig)
-    import pandas as pd
-    import streamlit as st
-    import plotly.express as px
-
-    # Cargar los datos
-    data = pd.read_json('./data/output7.json')
-    df = pd.DataFrame(data)
-
-    # Limpiar los nombres de las columnas (quitar espacios en blanco)
-    df.columns = df.columns.str.strip()
-
-    # Limpiar y convertir columnas
-    df['Defunciones Masculinas'] = df['Defunciones Masculinas'].str.replace(" ", "").astype(int)
-    df['Defunciones Femeninas'] = df['Defunciones Femeninas'].str.replace(" ", "").astype(int)
-    df['Tasa masculina'] = df['Tasa masculina'].str.replace(",", ".").astype(float)
-    df['Tasa femeninas'] = df['Tasa femeninas'].str.replace(",", ".").astype(float)
-
-    # Obtener los años únicos
-    years = df['Annos'].unique()
-
-    # Selector para año inicial y final
-    year_start = st.selectbox("Selecciona un año inicial", sorted(years))
-    year_end = st.selectbox("Selecciona un año final", sorted(years), index=len(years)-1)
-
-    # Selector para sexo
-    sexo = st.selectbox("Selecciona el sexo", ["Masculino", "Femenino"])
-
-    # Filtrar los años intermedios
-    df_filtered = df[(df['Annos'] >= year_start) & (df['Annos'] <= year_end)]
-
-    # Sumar las tasas por cada localización según el sexo seleccionado
-    if sexo == "Masculino":
-        suma_tasas = df_filtered.groupby('Localozaciones').agg(
-            Suma_Tasa=('Tasa masculina', 'sum')
-        ).reset_index()
-        title = f"Tasa de defunciones masculinas de {year_start} a {year_end}"
-    else:
-        suma_tasas = df_filtered.groupby('Localozaciones').agg(
-            Suma_Tasa=('Tasa femeninas', 'sum')
-        ).reset_index()
-        title = f"Tasa de defunciones femeninas de {year_start} a {year_end}"
-
-    # Mostrar resultados
-    st.write("Suma de las tasas por localización:")
-    # st.dataframe(suma_tasas)
-
-    # Graficar resultados como un treemap
-    fig = px.treemap(
-        suma_tasas,
-        path=['Localozaciones'],
-        values='Suma_Tasa',
-        title=title,
-        hover_data={'Suma_Tasa': True}  # Muestra la suma de tasas en el tooltip
-    )
-
-    # Personalizar el tooltip
-    fig.update_traces(hovertemplate='Localización: %{label}<br>Suma de tasas: %{value:.2f}')
-
-    st.plotly_chart(fig)
+    comentarios()

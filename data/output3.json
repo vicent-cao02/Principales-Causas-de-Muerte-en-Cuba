@@ -1,7 +1,7 @@
 [
     {
         "Annos": 2022,
-        "Localizacion": "Traquea bronquios y pulmon ",
+        "Localizacion": "Traquea, bronquios y pulmon ",
         "Tasa": "44,7"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
         "Annos": 2022,
-        "Localizacion": "Intestino excepto el recto ",
+        "Localizacion": "Intestino, excepto el recto ",
         "Tasa": "22,9"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
         "Annos": 2022,
-        "Localizacion": "Labio cavidad bucal y faringe ",
+        "Localizacion": "Labio, cavidad bucal y faringe ",
         "Tasa": "8,7"
     },
     {
@@ -86,7 +86,7 @@
     },
     {
         "Annos": 2022,
-        "Localizacion": "Recto porcion rectosigmoidea y ano ",
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
         "Tasa": "3,5"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "Annos": 2021,
-        "Localizacion": "Traquea bronquios y pulmon ",
+        "Localizacion": "Traquea, bronquios y pulmon ",
         "Tasa": "47,7"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "Annos": 2021,
-        "Localizacion": "Labio cavidad bucal y faringe ",
+        "Localizacion": "Labio, cavidad bucal y faringe ",
         "Tasa": "8,0"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
         "Annos": 2021,
-        "Localizacion": "Recto porcion rectosigmoidea y ano ",
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
         "Tasa": "3,6"
     },
     {
@@ -208,5 +208,1035 @@
         "Annos": 2021,
         "Localizacion": "Resto de las localizaciones",
         "Tasa": "13,8"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Traquea, bronquios y pulmon ",
+        "Tasa": "49,8"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Prostata",
+        "Tasa": "62,1"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Intestino, excepto el recto ",
+        "Tasa": "22,7"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Mama de la mujer",
+        "Tasa": "30,4"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Laringe ",
+        "Tasa": "9,3"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Labio, cavidad bucal y faringe ",
+        "Tasa": "8,3"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Vias urinarias ",
+        "Tasa": "0"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Pancreas ",
+        "Tasa": "8,3"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Tasa": "8,2"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Estomago ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Esofago ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Higado y vias biliares intrahepaticas ",
+        "Tasa": "7,6"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Otras partes del utero y las no especificadas ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Encefalo ",
+        "Tasa": "12,3"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Piel ",
+        "Tasa": "5,5"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Cuello de utero ",
+        "Tasa": "4,9"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Leucemia ",
+        "Tasa": "9,7"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
+        "Tasa": "4,5"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Ovarios",
+        "Tasa": "3,4"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Huesos y cartilagos articulares ",
+        "Tasa": "1,9"
+    },
+    {
+        "Annos": 2020,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "17,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Traquea, bronquios y pulmon ",
+        "Tasa": "50,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Prostata",
+        "Tasa": "56,5"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Intestino, excepto el recto ",
+        "Tasa": "21,3"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Mama de la mujer",
+        "Tasa": "30,6"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Laringe ",
+        "Tasa": "8,9"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Labio, cavidad bucal y faringe ",
+        "Tasa": "8,6"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Vias urinarias ",
+        "Tasa": "0"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Pancreas ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Tasa": "8,2"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Estomago ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Esofago ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Higado y vias biliares intrahepaticas ",
+        "Tasa": "7,1"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Otras partes del utero y las no especificadas ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Encefalo ",
+        "Tasa": "11,9"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Piel ",
+        "Tasa": "5,1"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Cuello de utero ",
+        "Tasa": "5,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Leucemia ",
+        "Tasa": "9,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
+        "Tasa": "4,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Ovarios",
+        "Tasa": "3,4"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Huesos y cartilagos articulares ",
+        "Tasa": "1,7"
+    },
+    {
+        "Annos": 2019,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "45,6"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Traquea, bronquios y pulmon ",
+        "Tasa": "50,0"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Prostata",
+        "Tasa": "57,0"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Intestino, excepto el recto ",
+        "Tasa": "21,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Mama de la mujer",
+        "Tasa": "28,2"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Laringe ",
+        "Tasa": "8,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Labio, cavidad bucal y faringe ",
+        "Tasa": "8,6"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Vias urinarias ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Pancreas ",
+        "Tasa": "7,1"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Tasa": "8,0"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Estomago ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Esofago ",
+        "Tasa": "7,0"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Higado y vias biliares intrahepaticas ",
+        "Tasa": "7,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Otras partes del utero y las no especificadas ",
+        "Tasa": "11,0"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Encefalo ",
+        "Tasa": "5,6"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Piel ",
+        "Tasa": "9,8"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Cuello de utero ",
+        "Tasa": "5,6"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Leucemia ",
+        "Tasa": "4,1"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Recto, porcion rectosigmoidea y ano ",
+        "Tasa": "3,4"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Ovarios",
+        "Tasa": "1,6"
+    },
+    {
+        "Annos": 2018,
+        "Localizacion": "Huesos y cartilagos articulares ",
+        "Tasa": "16,0"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Pr\u00f3stata*",
+        "Tasa": "55.7"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Tr\u00e1quea, bronquios y pulm\u00f3n",
+        "Tasa": "50.9"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Mama de la mujer**",
+        "Tasa": "26.9"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "22.1"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas**",
+        "Tasa": "12.4"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "9.4"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "8.9"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.9"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Laringe",
+        "Tasa": "7.6"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "7.4"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "7.4"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.2"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Piel",
+        "Tasa": "4.2"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "3.4"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.9"
+    },
+    {
+        "Annos": 2017,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "45.0"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Pr\u00f3stata*",
+        "Tasa": "54.3"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Tr\u00e1quea, bronquios y pulm\u00f3n",
+        "Tasa": "49.3"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Mama de la mujer**",
+        "Tasa": "27.1"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "20.7"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas**",
+        "Tasa": "12.1"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "9.0"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "8.8"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "8.0"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Laringe",
+        "Tasa": "7.7"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "6.8"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "6.8"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.4"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Piel",
+        "Tasa": "4.2"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "3.4"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.6"
+    },
+    {
+        "Annos": 2016,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "42.8"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Pr\u00f3stata*",
+        "Tasa": "52.4"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Tr\u00e1quea, bronquios y pulm\u00f3n",
+        "Tasa": "48.8"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Mama  de la mujer**",
+        "Tasa": "27.4"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "20.7"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas**",
+        "Tasa": "11.5"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "8.8"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "8.3"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.9"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Laringe",
+        "Tasa": "7.9"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "7.0"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "7.0"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.0"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Piel",
+        "Tasa": "4.0"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "2.9"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.6"
+    },
+    {
+        "Annos": 2015,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "43.7"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Pr\u00f3stata*",
+        "Tasa": "51.0"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Tr\u00e1quea, bronquios y pulm\u00f3n",
+        "Tasa": "48.9"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Mama  de la mujer**",
+        "Tasa": "27.6"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "19.7"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas**",
+        "Tasa": "11.6"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "9.1"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "8.7"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "8.0"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Laringe",
+        "Tasa": "7.4"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "7.5"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "7.3"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Leucemia",
+        "Tasa": "4.9"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Piel",
+        "Tasa": "3.9"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "3.0"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.8"
+    },
+    {
+        "Annos": 2014,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "42.7"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Pr\u00f3stata *",
+        "Tasa": "50.1"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Tr\u00e1quea,  bronquios y  pulm\u00f3n",
+        "Tasa": "46.7"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Mama de la mujer**",
+        "Tasa": "25.6"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "18.5"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas **",
+        "Tasa": "12.2"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos                                 ",
+        "Tasa": " 8.4  "
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "hematopoy\u00e9ticos",
+        "Tasa": "8.2"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Laringe",
+        "Tasa": "8.0"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "7.9"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.5"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "6.8"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "6.5"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.3"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Piel",
+        "Tasa": "3.5"
+    },
+    {
+        "Annos": 2013,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "2.7"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.5"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "41.7"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Pr\u00f3stata *",
+        "Tasa": "48.2"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Tr\u00e1quea,  bronquios y  pulm\u00f3n",
+        "Tasa": "45.5"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Mama de la mujer**",
+        "Tasa": "27.2"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "18.9"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas **",
+        "Tasa": "10.1"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos                                  ",
+        "Tasa": "8.4    "
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "hematopoy\u00e9ticos",
+        "Tasa": "8.2"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Laringe",
+        "Tasa": "7.5"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Cuello de \u00fatero**",
+        "Tasa": "8.1"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.6"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "6.6"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "5.7"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.3"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Piel",
+        "Tasa": "3.5"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "3.0"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.9"
+    },
+    {
+        "Annos": 2012,
+        "Localizacion": "Resto de las localizaciones",
+        "Tasa": "40.7"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Pr\u00f3stata **",
+        "Tasa": "46.7"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Tr\u00e1quea,  bronquios y",
+        "Tasa": "44.4"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Mama de la mujer*",
+        "Tasa": "24.7"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "17.8"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas *",
+        "Tasa": "10.3"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Cuello de \u00fatero *",
+        "Tasa": "8.1"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "7.8"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.2"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "6.7"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Laringe",
+        "Tasa": "6.4"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "5.9"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Leucemia",
+        "Tasa": "4.9"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Piel",
+        "Tasa": "3.7"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "2.5"
+    },
+    {
+        "Annos": 2011,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.6"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Pr\u00f3stata **",
+        "Tasa": "49.4"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Tr\u00e1quea,  bronquios y",
+        "Tasa": "45.6"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Mama de la mujer*",
+        "Tasa": "24.7"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "18.3"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas *",
+        "Tasa": "11.0"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Cuello de \u00fatero *",
+        "Tasa": "7.8"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos hematopoy\u00e9ticos",
+        "Tasa": "8.0"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "7.7"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "5.9"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Laringe",
+        "Tasa": "6.7"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "5.5"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Leucemia",
+        "Tasa": "5.3"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Piel",
+        "Tasa": "3.5"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "2.1"
+    },
+    {
+        "Annos": 2010,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.7"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Labio, cavidad bucal y faringe",
+        "Tasa": "5.6"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Es\u00f3fago",
+        "Tasa": "5.6"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Est\u00f3mago",
+        "Tasa": "6.9"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Intestino, excepto el recto",
+        "Tasa": "17.5"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Recto, porci\u00f3n rectosigmoidea y ano",
+        "Tasa": "2.5"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Laringe",
+        "Tasa": "6.3"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Tr\u00e1quea,  bronquios y  pulm\u00f3n",
+        "Tasa": "45.2"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Huesos y cart\u00edlagos articulares",
+        "Tasa": "1.7"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Piel",
+        "Tasa": "3.3"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Mama**",
+        "Tasa": "25.2"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Cuello de \u00fatero **",
+        "Tasa": "8.1"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Otras partes del \u00fatero y las no especificadas **",
+        "Tasa": "11.7"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Pr\u00f3stata ***",
+        "Tasa": "43.3"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Leucemia",
+        "Tasa": "4.7"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "Otros tumores del tejido linf\u00e1tico y de los \u00f3rganos                         ",
+        "Tasa": "7.9"
+    },
+    {
+        "Annos": 2009,
+        "Localizacion": "hematopoy\u00e9ticos",
+        "Tasa": " 4.3"
     }
 ]

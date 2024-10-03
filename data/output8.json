@@ -39,36 +39,468 @@
         "Annos": 2021,
         "enfermedades": "Tumores malignos",
         "Cantidad de defunciones ": "26 949",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 642
     },
     {
         "Annos": 2021,
         "enfermedades": "Enfermedades cerebrovasculares",
         "Cantidad de defunciones ": "13 287",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 465
     },
     {
         "Annos": 2021,
         "enfermedades": "Enfermedades cronicas respiratorias  ",
         "Cantidad de defunciones ": "5 896",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 157
     },
     {
         "Annos": 2021,
         "enfermedades": "Enfermedades de las arterias",
         "Cantidad de defunciones ": "4 060",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 921
     },
     {
         "Annos": 2021,
         "enfermedades": "Diabetes mellitus",
         "Cantidad de defunciones ": "3 970",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 455
     },
     {
         "Annos": 2021,
         "enfermedades": "Cirrosis",
         "Cantidad de defunciones ": "2 041",
-        "Cantidad de especialistas": 1
+        "Cantidad de especialistas": 576
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "26 056",
+        "Cantidad de especialistas": 651
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": " 10 821",
+        "Cantidad de especialistas": 491
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 510",
+        "Cantidad de especialistas": 241
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 792",
+        "Cantidad de especialistas": 940
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 806",
+        "Cantidad de especialistas": 454
+    },
+    {
+        "Annos": 2020,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "2 026",
+        "Cantidad de especialistas": 581
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "  25 307",
+        "Cantidad de especialistas": 638
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "10 152",
+        "Cantidad de especialistas": 446
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": " 4 379",
+        "Cantidad de especialistas": 250
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 679",
+        "Cantidad de especialistas": 952
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 381",
+        "Cantidad de especialistas": 460
+    },
+    {
+        "Annos": 2019,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": " 1 941",
+        "Cantidad de especialistas": 588
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "24 902",
+        "Cantidad de especialistas": 540
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 891",
+        "Cantidad de especialistas": 423
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "4 079",
+        "Cantidad de especialistas": 202
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "3 041",
+        "Cantidad de especialistas": 778
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 378",
+        "Cantidad de especialistas": 403
+    },
+    {
+        "Annos": 2018,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 766",
+        "Cantidad de especialistas": 639
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "25 194",
+        "Cantidad de especialistas": 624
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 913",
+        "Cantidad de especialistas": 495
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "4 438",
+        "Cantidad de especialistas": 273
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 938",
+        "Cantidad de especialistas": 702
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 425",
+        "Cantidad de especialistas": 450
+    },
+    {
+        "Annos": 2017,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 738",
+        "Cantidad de especialistas": 592
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "24 303  ",
+        "Cantidad de especialistas": 489
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 465",
+        "Cantidad de especialistas": 390
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "4 088",
+        "Cantidad de especialistas": 199
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 714",
+        "Cantidad de especialistas": 760
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 247",
+        "Cantidad de especialistas": 370
+    },
+    {
+        "Annos": 2016,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 550",
+        "Cantidad de especialistas": 609
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "24 131",
+        "Cantidad de especialistas": 465
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 276",
+        "Cantidad de especialistas": 355
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "4 217",
+        "Cantidad de especialistas": 201
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 863",
+        "Cantidad de especialistas": 720
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 254",
+        "Cantidad de especialistas": 341
+    },
+    {
+        "Annos": 2015,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 506",
+        "Cantidad de especialistas": 341
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "23 729",
+        "Cantidad de especialistas": 445
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 256",
+        "Cantidad de especialistas": 350
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 938",
+        "Cantidad de especialistas": 193
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 921",
+        "Cantidad de especialistas": 665
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 210",
+        "Cantidad de especialistas": 352
+    },
+    {
+        "Annos": 2014,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 430",
+        "Cantidad de especialistas": 570
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "22 868",
+        "Cantidad de especialistas": 412
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 011",
+        "Cantidad de especialistas": 328
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 775",
+        "Cantidad de especialistas": 192
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 606",
+        "Cantidad de especialistas": 688
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 246",
+        "Cantidad de especialistas": 339
+    },
+    {
+        "Annos": 2013,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 490",
+        "Cantidad de especialistas": 591
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "22 532",
+        "Cantidad de especialistas": 399
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "8 891",
+        "Cantidad de especialistas": 318
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 373",
+        "Cantidad de especialistas": 198
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 630",
+        "Cantidad de especialistas": 678
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 206",
+        "Cantidad de especialistas": 334
+    },
+    {
+        "Annos": 2012,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 484",
+        "Cantidad de especialistas": 572
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "21 740",
+        "Cantidad de especialistas": 370
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "8 641",
+        "Cantidad de especialistas": 304
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 471",
+        "Cantidad de especialistas": 195
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 543",
+        "Cantidad de especialistas": 667
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 236",
+        "Cantidad de especialistas": 324
+    },
+    {
+        "Annos": 2011,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 519",
+        "Cantidad de especialistas": 546
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "22 190",
+        "Cantidad de especialistas": 359
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 763",
+        "Cantidad de especialistas": 298
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "3 210",
+        "Cantidad de especialistas": 185
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 755",
+        "Cantidad de especialistas": 627
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 638",
+        "Cantidad de especialistas": 294
+    },
+    {
+        "Annos": 2010,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 539",
+        "Cantidad de especialistas": 531
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Tumores malignos",
+        "Cantidad de defunciones ": "21 316",
+        "Cantidad de especialistas": 355
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Enfermedades cerebrovasculares",
+        "Cantidad de defunciones ": "9 401",
+        "Cantidad de especialistas": 304
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Enfermedades cronicas respiratorias  ",
+        "Cantidad de defunciones ": "5 320",
+        "Cantidad de especialistas": 181
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Enfermedades de las arterias",
+        "Cantidad de defunciones ": "2 573",
+        "Cantidad de especialistas": 612
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Diabetes mellitus",
+        "Cantidad de defunciones ": "2 370",
+        "Cantidad de especialistas": 292
+    },
+    {
+        "Annos": 2009,
+        "enfermedades": "Cirrosis",
+        "Cantidad de defunciones ": "1 472",
+        "Cantidad de especialistas": 512
     }
 ]
