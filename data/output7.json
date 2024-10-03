@@ -3,128 +3,1792 @@
         "Annos": 2022,
         "Localozaciones": "Traquea, bronquios y pulmon ",
         "Defunciones Masculinas ": "2 944",
-        "Tasa masculina": "53,5",
+        "Tasa masculina": 53.5,
         "Defunciones Femeninas ": "2 006",
-        "Tasa femeninas": "36,0"
+        "Tasa femeninas": 36.0
     },
     {
         "Annos": 2022,
         "Localozaciones": "Intestino, excepto el recto ",
         "Defunciones Masculinas ": "1 068",
-        "Tasa masculina": "19,4",
+        "Tasa masculina": 19.4,
         "Defunciones Femeninas ": "1 470",
-        "Tasa femeninas": "26,4"
+        "Tasa femeninas": 26.4
     },
     {
         "Annos": 2022,
         "Localozaciones": "Laringe ",
-        "Defunciones Masculinas ": "873",
-        "Tasa masculina": "15,9",
-        "Defunciones Femeninas ": "110",
-        "Tasa femeninas": "2,0"
+        "Defunciones Masculinas ": 873,
+        "Tasa masculina": 15.9,
+        "Defunciones Femeninas ": 110,
+        "Tasa femeninas": 2.0
     },
     {
         "Annos": 2022,
         "Localozaciones": "Labio, cavidad bucal y faringe ",
-        "Defunciones Masculinas ": "776",
-        "Tasa masculina": "14,1",
-        "Defunciones Femeninas ": "191",
-        "Tasa femeninas": "3,4"
+        "Defunciones Masculinas ": 776,
+        "Tasa masculina": 14.1,
+        "Defunciones Femeninas ": 191,
+        "Tasa femeninas": 3.4
     },
     {
         "Annos": 2022,
         "Localozaciones": "Vias urinarias ",
-        "Defunciones Masculinas ": "672",
-        "Tasa masculina": "12,2",
-        "Defunciones Femeninas ": "128",
-        "Tasa femeninas": "2,3"
+        "Defunciones Masculinas ": 672,
+        "Tasa masculina": 12.2,
+        "Defunciones Femeninas ": 128,
+        "Tasa femeninas": 2.3
     },
     {
         "Annos": 2022,
         "Localozaciones": "Pancreas ",
-        "Defunciones Masculinas ": "643",
-        "Tasa masculina": "11,7",
-        "Defunciones Femeninas ": "306",
-        "Tasa femeninas": "5,5"
+        "Defunciones Masculinas ": 643,
+        "Tasa masculina": 11.7,
+        "Defunciones Femeninas ": 306,
+        "Tasa femeninas": 5.5
     },
     {
         "Annos": 2022,
         "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
-        "Defunciones Masculinas ": "459",
-        "Tasa masculina": "8,3",
-        "Defunciones Femeninas ": "398",
-        "Tasa femeninas": "7,1"
+        "Defunciones Masculinas ": 459,
+        "Tasa masculina": 8.3,
+        "Defunciones Femeninas ": 398,
+        "Tasa femeninas": 7.1
     },
     {
         "Annos": 2022,
         "Localozaciones": "Estomago ",
-        "Defunciones Masculinas ": "459",
-        "Tasa masculina": "8,3",
-        "Defunciones Femeninas ": "428",
-        "Tasa femeninas": "7,7"
+        "Defunciones Masculinas ": 459,
+        "Tasa masculina": 8.3,
+        "Defunciones Femeninas ": 428,
+        "Tasa femeninas": 7.7
     },
     {
         "Annos": 2022,
         "Localozaciones": "Esofago ",
-        "Defunciones Masculinas ": "451",
-        "Tasa masculina": "8,2",
-        "Defunciones Femeninas ": "366",
-        "Tasa femeninas": "6,6"
+        "Defunciones Masculinas ": 451,
+        "Tasa masculina": 8.2,
+        "Defunciones Femeninas ": 366,
+        "Tasa femeninas": 6.6
     },
     {
         "Annos": 2022,
         "Localozaciones": "Higado y vias biliares intrahepaticas ",
-        "Defunciones Masculinas ": "433",
-        "Tasa masculina": "7,9",
-        "Defunciones Femeninas ": "355",
-        "Tasa femeninas": "6,4"
+        "Defunciones Masculinas ": 433,
+        "Tasa masculina": 7.9,
+        "Defunciones Femeninas ": 355,
+        "Tasa femeninas": 6.4
     },
     {
         "Annos": 2022,
         "Localozaciones": "Encefalo ",
-        "Defunciones Masculinas ": "384",
-        "Tasa masculina": "7,0",
-        "Defunciones Femeninas ": "213",
-        "Tasa femeninas": "3,8"
+        "Defunciones Masculinas ": 384,
+        "Tasa masculina": 7.0,
+        "Defunciones Femeninas ": 213,
+        "Tasa femeninas": 3.8
     },
     {
         "Annos": 2022,
         "Localozaciones": "Piel ",
-        "Defunciones Masculinas ": "295",
-        "Tasa masculina": "5,4",
-        "Defunciones Femeninas ": "306",
-        "Tasa femeninas": "5,5"
+        "Defunciones Masculinas ": 295,
+        "Tasa masculina": 5.4,
+        "Defunciones Femeninas ": 306,
+        "Tasa femeninas": 5.5
     },
     {
         "Annos": 2022,
         "Localozaciones": "Leucemia ",
-        "Defunciones Masculinas ": "250",
-        "Tasa masculina": "4,5",
-        "Defunciones Femeninas ": "224",
-        "Tasa femeninas": "4,0"
+        "Defunciones Masculinas ": 250,
+        "Tasa masculina": 4.5,
+        "Defunciones Femeninas ": 224,
+        "Tasa femeninas": 4.0
     },
     {
         "Annos": 2022,
         "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
-        "Defunciones Masculinas ": "183",
-        "Tasa masculina": "3,3",
-        "Defunciones Femeninas ": "200",
-        "Tasa femeninas": "3,6"
+        "Defunciones Masculinas ": 183,
+        "Tasa masculina": 3.3,
+        "Defunciones Femeninas ": 200,
+        "Tasa femeninas": 3.6
     },
     {
         "Annos": 2022,
         "Localozaciones": "Huesos y cartilagos articulares ",
-        "Defunciones Masculinas ": "125",
-        "Tasa masculina": "2,3",
-        "Defunciones Femeninas ": "77",
-        "Tasa femeninas": "1,4"
+        "Defunciones Masculinas ": 125,
+        "Tasa masculina": 2.3,
+        "Defunciones Femeninas ": 77,
+        "Tasa femeninas": 1.4
     },
     {
         "Annos": 2022,
         "Localozaciones": "Resto de las localizaciones",
         "Defunciones Masculinas ": "4 235",
-        "Tasa masculina": "76,9",
+        "Tasa masculina": 76.9,
         "Defunciones Femeninas ": "4 163",
-        "Tasa femeninas": "74,7"
+        "Tasa femeninas": 74.7
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": 3166,
+        "Tasa masculina": 56.9,
+        "Defunciones Femeninas ": 2141,
+        "Tasa femeninas": 38.1
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 1176,
+        "Tasa masculina": 21.2,
+        "Defunciones Femeninas ": 1513,
+        "Tasa femeninas": 26.9
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 869,
+        "Tasa masculina": 15.6,
+        "Defunciones Femeninas ": 139,
+        "Tasa femeninas": 2.5
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 729,
+        "Tasa masculina": 13.1,
+        "Defunciones Femeninas ": 159,
+        "Tasa femeninas": 2.8
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 680,
+        "Tasa masculina": 12.2,
+        "Defunciones Femeninas ": 323,
+        "Tasa femeninas": 5.7
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 664,
+        "Tasa masculina": 11.9,
+        "Defunciones Femeninas ": 135,
+        "Tasa femeninas": 2.4
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 534,
+        "Tasa masculina": 9.6,
+        "Defunciones Femeninas ": 442,
+        "Tasa femeninas": 7.9
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 516,
+        "Tasa masculina": 9.3,
+        "Defunciones Femeninas ": 354,
+        "Tasa femeninas": 6.3
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 489,
+        "Tasa masculina": 8.8,
+        "Defunciones Femeninas ": 435,
+        "Tasa femeninas": 7.7
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 421,
+        "Tasa masculina": 7.6,
+        "Defunciones Femeninas ": 408,
+        "Tasa femeninas": 7.3
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 380,
+        "Tasa masculina": 6.8,
+        "Defunciones Femeninas ": 216,
+        "Tasa femeninas": 3.8
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 326,
+        "Tasa masculina": 5.9,
+        "Defunciones Femeninas ": 292,
+        "Tasa femeninas": 5.2
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 329,
+        "Tasa masculina": 5.9,
+        "Defunciones Femeninas ": 246,
+        "Tasa femeninas": 4.4
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 176,
+        "Tasa masculina": 3.2,
+        "Defunciones Femeninas ": 221,
+        "Tasa femeninas": 3.9
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 128,
+        "Tasa masculina": 2.3,
+        "Defunciones Femeninas ": 88,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2021,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 4867,
+        "Tasa masculina": 87.5,
+        "Defunciones Femeninas ": 4229,
+        "Tasa femeninas": 75.2
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": 3433,
+        "Tasa masculina": 61.6,
+        "Defunciones Femeninas ": 2147,
+        "Tasa femeninas": 38.1
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 1139,
+        "Tasa masculina": 20.5,
+        "Defunciones Femeninas ": 1409,
+        "Tasa femeninas": 25.0
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 812,
+        "Tasa masculina": 14.6,
+        "Defunciones Femeninas ": 115,
+        "Tasa femeninas": 2.0
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 736,
+        "Tasa masculina": 13.2,
+        "Defunciones Femeninas ": 305,
+        "Tasa femeninas": 5.4
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 696,
+        "Tasa masculina": 12.5,
+        "Defunciones Femeninas ": 156,
+        "Tasa femeninas": 2.8
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 689,
+        "Tasa masculina": 12.4,
+        "Defunciones Femeninas ": 210,
+        "Tasa femeninas": 3.7
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 537,
+        "Tasa masculina": 9.6,
+        "Defunciones Femeninas ": 357,
+        "Tasa femeninas": 6.3
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 519,
+        "Tasa masculina": 9.3,
+        "Defunciones Femeninas ": 411,
+        "Tasa femeninas": 7.3
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 470,
+        "Tasa masculina": 8.4,
+        "Defunciones Femeninas ": 452,
+        "Tasa femeninas": 8.0
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 460,
+        "Tasa masculina": 8.3,
+        "Defunciones Femeninas ": 367,
+        "Tasa femeninas": 6.5
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 332,
+        "Tasa masculina": 6.0,
+        "Defunciones Femeninas ": 283,
+        "Tasa femeninas": 5.0
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 290,
+        "Tasa masculina": 5.2,
+        "Defunciones Femeninas ": 264,
+        "Tasa femeninas": 4.7
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 286,
+        "Tasa masculina": 5.1,
+        "Defunciones Femeninas ": 217,
+        "Tasa femeninas": 3.9
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 174,
+        "Tasa masculina": 3.1,
+        "Defunciones Femeninas ": 211,
+        "Tasa femeninas": 3.7
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 108,
+        "Tasa masculina": 1.9,
+        "Defunciones Femeninas ": 104,
+        "Tasa femeninas": 1.8
+    },
+    {
+        "Annos": 2020,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 4325,
+        "Tasa masculina": 77.7,
+        "Defunciones Femeninas ": 4042,
+        "Tasa femeninas": 71.8
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 406",
+        "Tasa masculina": 61.0,
+        "Defunciones Femeninas ": "2 220",
+        "Tasa femeninas": 39.4
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 981,
+        "Tasa masculina": 17.6,
+        "Defunciones Femeninas ": "1 333",
+        "Tasa femeninas": 23.6
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 788,
+        "Tasa masculina": 14.1,
+        "Defunciones Femeninas ": 103,
+        "Tasa femeninas": 1.8
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 722,
+        "Tasa masculina": 12.9,
+        "Defunciones Femeninas ": 171,
+        "Tasa femeninas": 3.0
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 671,
+        "Tasa masculina": 12.0,
+        "Defunciones Femeninas ": 300,
+        "Tasa femeninas": 5.3
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 646,
+        "Tasa masculina": 11.6,
+        "Defunciones Femeninas ": 141,
+        "Tasa femeninas": 2.5
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 549,
+        "Tasa masculina": 9.8,
+        "Defunciones Femeninas ": 408,
+        "Tasa femeninas": 7.2
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 506,
+        "Tasa masculina": 9.1,
+        "Defunciones Femeninas ": 320,
+        "Tasa femeninas": 5.7
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 459,
+        "Tasa masculina": 8.2,
+        "Defunciones Femeninas ": 432,
+        "Tasa femeninas": 7.7
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 436,
+        "Tasa masculina": 7.8,
+        "Defunciones Femeninas ": 380,
+        "Tasa femeninas": 6.7
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 309,
+        "Tasa masculina": 5.5,
+        "Defunciones Femeninas ": 292,
+        "Tasa femeninas": 5.2
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 305,
+        "Tasa masculina": 5.5,
+        "Defunciones Femeninas ": 186,
+        "Tasa femeninas": 3.3
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 281,
+        "Tasa masculina": 5.0,
+        "Defunciones Femeninas ": 231,
+        "Tasa femeninas": 4.1
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 162,
+        "Tasa masculina": 2.9,
+        "Defunciones Femeninas ": 208,
+        "Tasa femeninas": 3.7
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 103,
+        "Tasa masculina": 1.8,
+        "Defunciones Femeninas ": 88,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2019,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 940",
+        "Tasa masculina": 70.5,
+        "Defunciones Femeninas ": "3 958",
+        "Tasa femeninas": 70.2
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 534",
+        "Tasa masculina": 63.1,
+        "Defunciones Femeninas ": "2 079",
+        "Tasa femeninas": 36.8
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": "1 029",
+        "Tasa masculina": 18.4,
+        "Defunciones Femeninas ": "1 374",
+        "Tasa femeninas": 24.3
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 696,
+        "Tasa masculina": 12.4,
+        "Defunciones Femeninas ": 99,
+        "Tasa femeninas": 1.8
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 681,
+        "Tasa masculina": 12.2,
+        "Defunciones Femeninas ": 153,
+        "Tasa femeninas": 2.7
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 679,
+        "Tasa masculina": 12.1,
+        "Defunciones Femeninas ": 147,
+        "Tasa femeninas": 2.6
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 654,
+        "Tasa masculina": 11.7,
+        "Defunciones Femeninas ": 285,
+        "Tasa femeninas": 5.0
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 512,
+        "Tasa masculina": 9.1,
+        "Defunciones Femeninas ": 460,
+        "Tasa femeninas": 8.1
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 490,
+        "Tasa masculina": 8.7,
+        "Defunciones Femeninas ": 334,
+        "Tasa femeninas": 5.9
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 465,
+        "Tasa masculina": 8.3,
+        "Defunciones Femeninas ": 429,
+        "Tasa femeninas": 7.6
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 411,
+        "Tasa masculina": 7.3,
+        "Defunciones Femeninas ": 364,
+        "Tasa femeninas": 6.4
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 354,
+        "Tasa masculina": 6.3,
+        "Defunciones Femeninas ": 277,
+        "Tasa femeninas": 4.9
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 313,
+        "Tasa masculina": 5.6,
+        "Defunciones Femeninas ": 304,
+        "Tasa femeninas": 5.4
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 285,
+        "Tasa masculina": 5.1,
+        "Defunciones Femeninas ": 167,
+        "Tasa femeninas": 3.0
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 166,
+        "Tasa masculina": 3.0,
+        "Defunciones Femeninas ": 216,
+        "Tasa femeninas": 3.8
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 92,
+        "Tasa masculina": 1.6,
+        "Defunciones Femeninas ": 92,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2018,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 937",
+        "Tasa masculina": 70.3,
+        "Defunciones Femeninas ": "3 824",
+        "Tasa femeninas": 67.7
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 617",
+        "Tasa masculina": 64.6,
+        "Defunciones Femeninas ": "2 103",
+        "Tasa femeninas": 37.3
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": "1 049",
+        "Tasa masculina": 18.7,
+        "Defunciones Femeninas ": "1 436",
+        "Tasa femeninas": 25.4
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 736,
+        "Tasa masculina": 13.1,
+        "Defunciones Femeninas ": 116,
+        "Tasa femeninas": 2.1
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 722,
+        "Tasa masculina": 12.9,
+        "Defunciones Femeninas ": 279,
+        "Tasa femeninas": 4.9
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 680,
+        "Tasa masculina": 12.1,
+        "Defunciones Femeninas ": 150,
+        "Tasa femeninas": 2.7
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 672,
+        "Tasa masculina": 12.0,
+        "Defunciones Femeninas ": 157,
+        "Tasa femeninas": 2.8
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 561,
+        "Tasa masculina": 10.0,
+        "Defunciones Femeninas ": 441,
+        "Tasa femeninas": 7.8
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 556,
+        "Tasa masculina": 9.9,
+        "Defunciones Femeninas ": 333,
+        "Tasa femeninas": 5.9
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 445,
+        "Tasa masculina": 7.9,
+        "Defunciones Femeninas ": 389,
+        "Tasa femeninas": 6.9
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 392,
+        "Tasa masculina": 7.0,
+        "Defunciones Femeninas ": 371,
+        "Tasa femeninas": 6.6
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 338,
+        "Tasa masculina": 6.0,
+        "Defunciones Femeninas ": 288,
+        "Tasa femeninas": 5.1
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 324,
+        "Tasa masculina": 5.8,
+        "Defunciones Femeninas ": 256,
+        "Tasa femeninas": 4.5
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 297,
+        "Tasa masculina": 5.3,
+        "Defunciones Femeninas ": 179,
+        "Tasa femeninas": 3.2
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 152,
+        "Tasa masculina": 2.7,
+        "Defunciones Femeninas ": 226,
+        "Tasa femeninas": 4.0
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 117,
+        "Tasa masculina": 2.1,
+        "Defunciones Femeninas ": 101,
+        "Tasa femeninas": 1.8
+    },
+    {
+        "Annos": 2017,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 917",
+        "Tasa masculina": 69.9,
+        "Defunciones Femeninas ": "3 794",
+        "Tasa femeninas": 67.2
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 482",
+        "Tasa masculina": 62.2,
+        "Defunciones Femeninas ": "2 053",
+        "Tasa femeninas": 36.4
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": "1 005",
+        "Tasa masculina": 18.0,
+        "Defunciones Femeninas ": "1 326",
+        "Tasa femeninas": 23.5
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 746,
+        "Tasa masculina": 13.3,
+        "Defunciones Femeninas ": 115,
+        "Tasa femeninas": 2.0
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 623,
+        "Tasa masculina": 11.1,
+        "Defunciones Femeninas ": 262,
+        "Tasa femeninas": 4.6
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 611,
+        "Tasa masculina": 10.9,
+        "Defunciones Femeninas ": 151,
+        "Tasa femeninas": 2.7
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 594,
+        "Tasa masculina": 10.6,
+        "Defunciones Femeninas ": 163,
+        "Tasa femeninas": 2.9
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 547,
+        "Tasa masculina": 9.8,
+        "Defunciones Femeninas ": 427,
+        "Tasa femeninas": 7.6
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 521,
+        "Tasa masculina": 9.3,
+        "Defunciones Femeninas ": 368,
+        "Tasa femeninas": 6.5
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 430,
+        "Tasa masculina": 7.7,
+        "Defunciones Femeninas ": 414,
+        "Tasa femeninas": 7.3
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 419,
+        "Tasa masculina": 7.5,
+        "Defunciones Femeninas ": 359,
+        "Tasa femeninas": 6.4
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 330,
+        "Tasa masculina": 5.9,
+        "Defunciones Femeninas ": 271,
+        "Tasa femeninas": 4.8
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 324,
+        "Tasa masculina": 5.8,
+        "Defunciones Femeninas ": 292,
+        "Tasa femeninas": 5.2
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 281,
+        "Tasa masculina": 5.0,
+        "Defunciones Femeninas ": 180,
+        "Tasa femeninas": 3.2
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 176,
+        "Tasa masculina": 3.1,
+        "Defunciones Femeninas ": 204,
+        "Tasa femeninas": 3.6
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 102,
+        "Tasa masculina": 1.8,
+        "Defunciones Femeninas ": 82,
+        "Tasa femeninas": 1.5
+    },
+    {
+        "Annos": 2016,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 765",
+        "Tasa masculina": 67.3,
+        "Defunciones Femeninas ": "3 680",
+        "Tasa femeninas": 65.3
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 508",
+        "Tasa masculina": 62.7,
+        "Defunciones Femeninas ": "1 966",
+        "Tasa femeninas": 34.9
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": "1 007",
+        "Tasa masculina": 18.0,
+        "Defunciones Femeninas ": "1 312",
+        "Tasa femeninas": 23.3
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 566,
+        "Tasa masculina": 10.1,
+        "Defunciones Femeninas ": 420,
+        "Tasa femeninas": 7.5
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 548,
+        "Tasa masculina": 9.8,
+        "Defunciones Femeninas ": 342,
+        "Tasa femeninas": 6.1
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 777,
+        "Tasa masculina": 13.9,
+        "Defunciones Femeninas ": 108,
+        "Tasa femeninas": 1.9
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 668,
+        "Tasa masculina": 11.9,
+        "Defunciones Femeninas ": 116,
+        "Tasa femeninas": 2.1
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 614,
+        "Tasa masculina": 11.0,
+        "Defunciones Femeninas ": 169,
+        "Tasa femeninas": 3.0
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 334,
+        "Tasa masculina": 6.0,
+        "Defunciones Femeninas ": 227,
+        "Tasa femeninas": 4.0
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 267,
+        "Tasa masculina": 4.8,
+        "Defunciones Femeninas ": 182,
+        "Tasa femeninas": 3.2
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 159,
+        "Tasa masculina": 2.8,
+        "Defunciones Femeninas ": 165,
+        "Tasa femeninas": 2.9
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 102,
+        "Tasa masculina": 1.8,
+        "Defunciones Femeninas ": 80,
+        "Tasa femeninas": 1.4
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 435,
+        "Tasa masculina": 7.8,
+        "Defunciones Femeninas ": 415,
+        "Tasa femeninas": 7.4
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 403,
+        "Tasa masculina": 7.2,
+        "Defunciones Femeninas ": 338,
+        "Tasa femeninas": 6.0
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 656,
+        "Tasa masculina": 11.7,
+        "Defunciones Femeninas ": 307,
+        "Tasa femeninas": 5.5
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 323,
+        "Tasa masculina": 5.8,
+        "Defunciones Femeninas ": 287,
+        "Tasa femeninas": 5.1
+    },
+    {
+        "Annos": 2015,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 709",
+        "Tasa masculina": 66.3,
+        "Defunciones Femeninas ": "3 621",
+        "Tasa femeninas": 64.3
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 445",
+        "Tasa masculina": 61.8,
+        "Defunciones Femeninas ": "1 999",
+        "Tasa femeninas": 35.7
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 956,
+        "Tasa masculina": 17.2,
+        "Defunciones Femeninas ": "1 221",
+        "Tasa femeninas": 21.8
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 734,
+        "Tasa masculina": 13.2,
+        "Defunciones Femeninas ": 92,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 698,
+        "Tasa masculina": 12.5,
+        "Defunciones Femeninas ": 140,
+        "Tasa femeninas": 2.5
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 612,
+        "Tasa masculina": 11.0,
+        "Defunciones Femeninas ": 256,
+        "Tasa femeninas": 4.6
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 528,
+        "Tasa masculina": 9.5,
+        "Defunciones Femeninas ": 474,
+        "Tasa femeninas": 8.5
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 540,
+        "Tasa masculina": 9.7,
+        "Defunciones Femeninas ": 351,
+        "Tasa femeninas": 6.3
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 631,
+        "Tasa masculina": 11.3,
+        "Defunciones Femeninas ": 186,
+        "Tasa femeninas": 3.3
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 418,
+        "Tasa masculina": 7.5,
+        "Defunciones Femeninas ": 442,
+        "Tasa femeninas": 7.9
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 413,
+        "Tasa masculina": 7.4,
+        "Defunciones Femeninas ": 354,
+        "Tasa femeninas": 6.3
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 288,
+        "Tasa masculina": 5.2,
+        "Defunciones Femeninas ": 257,
+        "Tasa femeninas": 4.6
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 343,
+        "Tasa masculina": 6.2,
+        "Defunciones Femeninas ": 301,
+        "Tasa femeninas": 5.4
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 265,
+        "Tasa masculina": 4.8,
+        "Defunciones Femeninas ": 160,
+        "Tasa femeninas": 2.9
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 142,
+        "Tasa masculina": 2.5,
+        "Defunciones Femeninas ": 189,
+        "Tasa femeninas": 3.4
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 116,
+        "Tasa masculina": 2.1,
+        "Defunciones Femeninas ": 80,
+        "Tasa femeninas": 1.4
+    },
+    {
+        "Annos": 2014,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 481",
+        "Tasa masculina": 62.5,
+        "Defunciones Femeninas ": "3 617",
+        "Tasa femeninas": 64.7
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 296",
+        "Tasa masculina": 59.2,
+        "Defunciones Femeninas ": "1 916",
+        "Tasa femeninas": 34.3
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 857,
+        "Tasa masculina": 15.4,
+        "Defunciones Femeninas ": "1 207",
+        "Tasa femeninas": 21.6
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 765,
+        "Tasa masculina": 13.7,
+        "Defunciones Femeninas ": 129,
+        "Tasa femeninas": 2.3
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 614,
+        "Tasa masculina": 11.0,
+        "Defunciones Femeninas ": 144,
+        "Tasa femeninas": 2.6
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 604,
+        "Tasa masculina": 10.8,
+        "Defunciones Femeninas ": 274,
+        "Tasa femeninas": 4.9
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 496,
+        "Tasa masculina": 8.9,
+        "Defunciones Femeninas ": 415,
+        "Tasa femeninas": 7.4
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 479,
+        "Tasa masculina": 8.6,
+        "Defunciones Femeninas ": 361,
+        "Tasa femeninas": 6.5
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 546,
+        "Tasa masculina": 9.8,
+        "Defunciones Femeninas ": 177,
+        "Tasa femeninas": 3.2
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 389,
+        "Tasa masculina": 7.0,
+        "Defunciones Femeninas ": 430,
+        "Tasa femeninas": 7.7
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 398,
+        "Tasa masculina": 7.1,
+        "Defunciones Femeninas ": 356,
+        "Tasa femeninas": 6.4
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 319,
+        "Tasa masculina": 5.7,
+        "Defunciones Femeninas ": 274,
+        "Tasa femeninas": 4.9
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 310,
+        "Tasa masculina": 5.6,
+        "Defunciones Femeninas ": 255,
+        "Tasa femeninas": 4.6
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 231,
+        "Tasa masculina": 4.1,
+        "Defunciones Femeninas ": 157,
+        "Tasa femeninas": 2.8
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 126,
+        "Tasa masculina": 2.3,
+        "Defunciones Femeninas ": 178,
+        "Tasa femeninas": 3.2
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 84,
+        "Tasa masculina": 1.5,
+        "Defunciones Femeninas ": 89,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2013,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": "3 469",
+        "Tasa masculina": 62.3,
+        "Defunciones Femeninas ": "3 523",
+        "Tasa femeninas": 63.0
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 269",
+        "Tasa masculina": 58.0,
+        "Defunciones Femeninas ": "1 828",
+        "Tasa femeninas": 32.5
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 915,
+        "Tasa masculina": 16.2,
+        "Defunciones Femeninas ": "1 174",
+        "Tasa femeninas": 20.9
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 733,
+        "Tasa masculina": 13.0,
+        "Defunciones Femeninas ": 104,
+        "Tasa femeninas": 1.9
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 608,
+        "Tasa masculina": 10.8,
+        "Defunciones Femeninas ": 131,
+        "Tasa femeninas": 2.3
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 594,
+        "Tasa masculina": 10.5,
+        "Defunciones Femeninas ": 271,
+        "Tasa femeninas": 4.8
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 538,
+        "Tasa masculina": 9.6,
+        "Defunciones Femeninas ": 407,
+        "Tasa femeninas": 7.2
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 511,
+        "Tasa masculina": 9.1,
+        "Defunciones Femeninas ": 335,
+        "Tasa femeninas": 6.0
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 504,
+        "Tasa masculina": 8.9,
+        "Defunciones Femeninas ": 137,
+        "Tasa femeninas": 2.4
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 443,
+        "Tasa masculina": 7.9,
+        "Defunciones Femeninas ": 378,
+        "Tasa femeninas": 6.7
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 338,
+        "Tasa masculina": 6.0,
+        "Defunciones Femeninas ": 332,
+        "Tasa femeninas": 5.9
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 314,
+        "Tasa masculina": 5.6,
+        "Defunciones Femeninas ": 283,
+        "Tasa femeninas": 5.0
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 317,
+        "Tasa masculina": 5.6,
+        "Defunciones Femeninas ": 275,
+        "Tasa femeninas": 4.9
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 235,
+        "Tasa masculina": 4.2,
+        "Defunciones Femeninas ": 151,
+        "Tasa femeninas": 2.7
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 163,
+        "Tasa masculina": 2.9,
+        "Defunciones Femeninas ": 169,
+        "Tasa femeninas": 3.0
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 122,
+        "Tasa masculina": 2.2,
+        "Defunciones Femeninas ": 93,
+        "Tasa femeninas": 1.7
+    },
+    {
+        "Annos": 2012,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 187",
+        "Tasa masculina": 56.7,
+        "Defunciones Femeninas ": "1 803",
+        "Tasa femeninas": 32.1
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 814,
+        "Tasa masculina": 14.5,
+        "Defunciones Femeninas ": "1 186",
+        "Tasa femeninas": 21.1
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 631,
+        "Tasa masculina": 11.2,
+        "Defunciones Femeninas ": 87,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 566,
+        "Tasa masculina": 10.1,
+        "Defunciones Femeninas ": 184,
+        "Tasa femeninas": 3.3
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 557,
+        "Tasa masculina": 9.9,
+        "Defunciones Femeninas ": 264,
+        "Tasa femeninas": 4.7
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 480,
+        "Tasa masculina": 8.5,
+        "Defunciones Femeninas ": 398,
+        "Tasa femeninas": 7.1
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 497,
+        "Tasa masculina": 8.8,
+        "Defunciones Femeninas ": 316,
+        "Tasa femeninas": 5.6
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 534,
+        "Tasa masculina": 9.5,
+        "Defunciones Femeninas ": 125,
+        "Tasa femeninas": 2.2
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 262,
+        "Tasa masculina": 4.7,
+        "Defunciones Femeninas ": 238,
+        "Tasa femeninas": 4.2
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 244,
+        "Tasa masculina": 4.3,
+        "Defunciones Femeninas ": 171,
+        "Tasa femeninas": 3.0
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 309,
+        "Tasa masculina": 5.5,
+        "Defunciones Femeninas ": 238,
+        "Tasa femeninas": 4.2
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 134,
+        "Tasa masculina": 2.4,
+        "Defunciones Femeninas ": 147,
+        "Tasa femeninas": 2.6
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 101,
+        "Tasa masculina": 1.8,
+        "Defunciones Femeninas ": 79,
+        "Tasa femeninas": 1.4
+    },
+    {
+        "Annos": 2011,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 274",
+        "Tasa masculina": 58.2,
+        "Defunciones Femeninas ": "1 826",
+        "Tasa femeninas": 32.6
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 857,
+        "Tasa masculina": 15.2,
+        "Defunciones Femeninas ": "1 182",
+        "Tasa femeninas": 21.1
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 664,
+        "Tasa masculina": 11.8,
+        "Defunciones Femeninas ": 88,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 525,
+        "Tasa masculina": 9.3,
+        "Defunciones Femeninas ": 142,
+        "Tasa femeninas": 2.5
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 622,
+        "Tasa masculina": 11.1,
+        "Defunciones Femeninas ": 251,
+        "Tasa femeninas": 4.5
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 480,
+        "Tasa masculina": 8.5,
+        "Defunciones Femeninas ": 402,
+        "Tasa femeninas": 7.2
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 546,
+        "Tasa masculina": 9.7,
+        "Defunciones Femeninas ": 314,
+        "Tasa femeninas": 5.6
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 499,
+        "Tasa masculina": 8.9,
+        "Defunciones Femeninas ": 122,
+        "Tasa femeninas": 2.2
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 275,
+        "Tasa masculina": 4.9,
+        "Defunciones Femeninas ": 269,
+        "Tasa femeninas": 4.8
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 247,
+        "Tasa masculina": 4.4,
+        "Defunciones Femeninas ": 139,
+        "Tasa femeninas": 2.5
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 330,
+        "Tasa masculina": 5.9,
+        "Defunciones Femeninas ": 258,
+        "Tasa femeninas": 4.6
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 110,
+        "Tasa masculina": 2.0,
+        "Defunciones Femeninas ": 119,
+        "Tasa femeninas": 2.1
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 98,
+        "Tasa masculina": 1.7,
+        "Defunciones Femeninas ": 94,
+        "Tasa femeninas": 1.7
+    },
+    {
+        "Annos": 2010,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Traquea, bronquios y pulmon ",
+        "Defunciones Masculinas ": "3 305",
+        "Tasa masculina": 58.7,
+        "Defunciones Femeninas ": "1 780",
+        "Tasa femeninas": 31.7
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Intestino, excepto el recto ",
+        "Defunciones Masculinas ": 843,
+        "Tasa masculina": 15.0,
+        "Defunciones Femeninas ": "1 126",
+        "Tasa femeninas": 20.1
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Laringe ",
+        "Defunciones Masculinas ": 620,
+        "Tasa masculina": 11.0,
+        "Defunciones Femeninas ": 91,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Labio, cavidad bucal y faringe ",
+        "Defunciones Masculinas ": 480,
+        "Tasa masculina": 8.5,
+        "Defunciones Femeninas ": 146,
+        "Tasa femeninas": 2.6
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Vias urinarias ",
+        "Defunciones Masculinas ": 543,
+        "Tasa masculina": 9.7,
+        "Defunciones Femeninas ": 233,
+        "Tasa femeninas": 4.2
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Pancreas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Otros tumores del tejido linfatico y de los organos hematopoyeticos ",
+        "Defunciones Masculinas ": 496,
+        "Tasa masculina": 8.8,
+        "Defunciones Femeninas ": 388,
+        "Tasa femeninas": 6.9
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Estomago ",
+        "Defunciones Masculinas ": 477,
+        "Tasa masculina": 8.5,
+        "Defunciones Femeninas ": 298,
+        "Tasa femeninas": 5.3
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Esofago ",
+        "Defunciones Masculinas ": 499,
+        "Tasa masculina": 8.9,
+        "Defunciones Femeninas ": 126,
+        "Tasa femeninas": 2.2
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Higado y vias biliares intrahepaticas ",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Encefalo ",
+        "Defunciones Masculinas ": 289,
+        "Tasa masculina": 5.1,
+        "Defunciones Femeninas ": 237,
+        "Tasa femeninas": 4.2
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Piel ",
+        "Defunciones Masculinas ": 243,
+        "Tasa masculina": 4.3,
+        "Defunciones Femeninas ": 126,
+        "Tasa femeninas": 2.2
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Leucemia ",
+        "Defunciones Masculinas ": 301,
+        "Tasa masculina": 5.3,
+        "Defunciones Femeninas ": 225,
+        "Tasa femeninas": 4.0
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Recto, porcion rectosigmoidea y ano ",
+        "Defunciones Masculinas ": 130,
+        "Tasa masculina": 2.3,
+        "Defunciones Femeninas ": 155,
+        "Tasa femeninas": 2.8
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Huesos y cartilagos articulares ",
+        "Defunciones Masculinas ": 102,
+        "Tasa masculina": 1.8,
+        "Defunciones Femeninas ": 87,
+        "Tasa femeninas": 1.6
+    },
+    {
+        "Annos": 2009,
+        "Localozaciones": "Resto de las localizaciones",
+        "Defunciones Masculinas ": 0,
+        "Tasa masculina": 0.0,
+        "Defunciones Femeninas ": 0,
+        "Tasa femeninas": 0.0
     }
 ]
