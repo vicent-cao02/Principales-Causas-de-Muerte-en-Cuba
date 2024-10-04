@@ -2,181 +2,981 @@
     {
         "Anos": 2022,
         "Enfermedades": "Enfermedades del corazon",
-        "Defunciones masculinas": "17 216",
         "Tasas masculinas ": "312,7",
-        "Defunciones femeninas ": "15 656",
         "Tasas femeninas": "280,9",
-        "Ambos sexos": "296.7"
+        "Ambos sexos": 296.7
     },
     {
         "Anos": 2022,
         "Enfermedades": "Tumores malignos",
-        "Defunciones masculinas": "14 250",
         "Tasas masculinas ": "258,8",
-        "Defunciones femeninas ": "10 941",
         "Tasas femeninas": "196,3",
-        "Ambos sexos": "227.3"
+        "Ambos sexos": 227.3
     },
     {
         "Anos": 2022,
         "Enfermedades": "Enfermedades cerebrovasculares ",
-        "Defunciones masculinas": "5 790",
         "Tasas masculinas ": "105,2",
-        "Defunciones femeninas ": "5 593",
         "Tasas femeninas": "100,4",
-        "Ambos sexos": "102.7"
+        "Ambos sexos": 102.7
     },
     {
         "Anos": 2022,
         "Enfermedades": "Influenza y neumonia ",
-        "Defunciones masculinas": "5 401",
         "Tasas masculinas ": "98,1",
-        "Defunciones femeninas ": "4 916",
         "Tasas femeninas": "88,2",
-        "Ambos sexos": "93.1"
+        "Ambos sexos": 93.1
     },
     {
         "Anos": 2022,
         "Enfermedades": "Accidentes ",
-        "Defunciones masculinas": "2 919",
         "Tasas masculinas ": "53,0",
-        "Defunciones femeninas ": "2 800",
         "Tasas femeninas": "50,2",
-        "Ambos sexos": "51.6"
+        "Ambos sexos": 51.6
     },
     {
         "Anos": 2022,
         "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
-        "Defunciones masculinas": "2 242",
         "Tasas masculinas ": "40,7",
-        "Defunciones femeninas ": "1 991",
         "Tasas femeninas": "35,7",
-        "Ambos sexos": "38.2"
+        "Ambos sexos": 38.2
     },
     {
         "Anos": 2022,
         "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
-        "Defunciones masculinas": "1 481",
         "Tasas masculinas ": "26,9",
-        "Defunciones femeninas ": "1 376",
         "Tasas femeninas": "24,7",
-        "Ambos sexos": "25.7"
+        "Ambos sexos": 25.7
     },
     {
         "Anos": 2022,
         "Enfermedades": "Diabetes mellitus",
-        "Defunciones masculinas": "1 065",
         "Tasas masculinas ": "19,3",
-        "Defunciones femeninas ": "1 445",
         "Tasas femeninas": "25,9",
-        "Ambos sexos": "22.6"
+        "Ambos sexos": 22.6
     },
     {
         "Anos": 2022,
         "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
-        "Defunciones masculinas": "1 395",
         "Tasas masculinas ": "25,3",
-        "Defunciones femeninas ": "429",
         "Tasas femeninas": "7,7",
-        "Ambos sexos": "16.4"
+        "Ambos sexos": 16.4
     },
     {
         "Anos": 2022,
         "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
-        "Defunciones masculinas": "1 193",
         "Tasas masculinas ": "21,7",
-        "Defunciones femeninas ": "239",
         "Tasas femeninas": "4,3",
-        "Ambos sexos": "12.2"
+        "Ambos sexos": 12.2
     },
     {
         "Anos": 2021,
         "Enfermedades": "Enfermedades del corazon",
-        "Defunciones masculinas": "23 730",
         "Tasas masculinas ": "426,8",
-        "Defunciones femeninas ": "21 050",
         "Tasas femeninas": "374,1",
-        "Ambos sexos": "400.3"
+        "Ambos sexos": 400.3
     },
     {
         "Anos": 2021,
         "Enfermedades": "Tumores malignos",
-        "Defunciones masculinas": "15 546",
         "Tasas masculinas ": "279,6",
-        "Defunciones femeninas ": "11 403",
         "Tasas femeninas": "202,7",
-        "Ambos sexos": "240.9"
+        "Ambos sexos": 240.9
     },
     {
         "Anos": 2021,
         "Enfermedades": "Enfermedades cerebrovasculares ",
-        "Defunciones masculinas": "6 978",
         "Tasas masculinas ": "125,5",
-        "Defunciones femeninas ": "6 309",
         "Tasas femeninas": "112,1",
-        "Ambos sexos": "118.7"
+        "Ambos sexos": 118.7
     },
     {
         "Anos": 2021,
         "Enfermedades": "Influenza y neumonia ",
-        "Defunciones masculinas": "14 301",
         "Tasas masculinas ": "257,2",
-        "Defunciones femeninas ": "10 910",
         "Tasas femeninas": "193,9",
-        "Ambos sexos": "225.3"
+        "Ambos sexos": 225.3
     },
     {
         "Anos": 2021,
         "Enfermedades": "Accidentes ",
-        "Defunciones masculinas": "2 858",
         "Tasas masculinas ": "51,4",
-        "Defunciones femeninas ": "3 038",
         "Tasas femeninas": "54,0",
-        "Ambos sexos": "52.7"
+        "Ambos sexos": 52.7
     },
     {
         "Anos": 2021,
         "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
-        "Defunciones masculinas": "3 857",
         "Tasas masculinas ": "69,4",
-        "Defunciones femeninas ": "2 869",
         "Tasas femeninas": "51,0",
-        "Ambos sexos": "60.1"
+        "Ambos sexos": 60.1
     },
     {
         "Anos": 2021,
         "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
-        "Defunciones masculinas": "2 135",
         "Tasas masculinas ": "38,4",
-        "Defunciones femeninas ": "1 925",
         "Tasas femeninas": "34,2",
-        "Ambos sexos": "36.2"
+        "Ambos sexos": 36.2
     },
     {
         "Anos": 2021,
         "Enfermedades": "Diabetes mellitus",
-        "Defunciones masculinas": "1 746",
         "Tasas masculinas ": "31,4",
-        "Defunciones femeninas ": "2 224",
         "Tasas femeninas": "39,5",
-        "Ambos sexos": "35.4"
+        "Ambos sexos": 35.4
     },
     {
         "Anos": 2021,
         "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
-        "Defunciones masculinas": "1 636",
         "Tasas masculinas ": "29,4",
-        "Defunciones femeninas ": "405",
         "Tasas femeninas": "7,2",
-        "Ambos sexos": "18.2"
+        "Ambos sexos": 18.2
     },
     {
         "Anos": 2021,
         "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
-        "Defunciones masculinas": "1 476",
         "Tasas masculinas ": "26,5",
-        "Defunciones femeninas ": "322",
         "Tasas femeninas": "5,7",
-        "Ambos sexos": "16.0"
+        "Ambos sexos": 16.0
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "260,0",
+        "Tasas femeninas": "222,1",
+        "Ambos sexos": 267.3
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "257,8",
+        "Tasas femeninas": "193,3",
+        "Ambos sexos": 232.6
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "94,0",
+        "Tasas femeninas": "86,8",
+        "Ambos sexos": 96.6
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "78,8",
+        "Tasas femeninas": "71,1",
+        "Ambos sexos": 62.6
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "51,8",
+        "Tasas femeninas": "48,0",
+        "Ambos sexos": 47.7
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "43,0",
+        "Tasas femeninas": "35,0",
+        "Ambos sexos": 31.3
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "18,5",
+        "Tasas femeninas": "23,9",
+        "Ambos sexos": 25.0
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "25,5",
+        "Tasas femeninas": "22,2",
+        "Ambos sexos": 24.9
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "27,4",
+        "Tasas femeninas": "7,3",
+        "Ambos sexos": 18.1
+    },
+    {
+        "Anos": 2020,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "21,6",
+        "Tasas femeninas": "4,6",
+        "Ambos sexos": 13.8
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "260,0",
+        "Tasas femeninas": "222,1",
+        "Ambos sexos": 241.0
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "257,8",
+        "Tasas femeninas": "193,3",
+        "Ambos sexos": 225.4
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "94,0",
+        "Tasas femeninas": "86,8",
+        "Ambos sexos": 90.4
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "78,8",
+        "Tasas femeninas": "71,1",
+        "Ambos sexos": 74.9
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "51,8",
+        "Tasas femeninas": "48,0",
+        "Ambos sexos": 49.9
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "43,0",
+        "Tasas femeninas": "35,0",
+        "Ambos sexos": 39.0
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "25,5",
+        "Tasas femeninas": "23,9",
+        "Ambos sexos": 21.2
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "18,5",
+        "Tasas femeninas": "22,2",
+        "Ambos sexos": 23.9
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "27,4",
+        "Tasas femeninas": "7,3",
+        "Ambos sexos": 17.3
+    },
+    {
+        "Anos": 2019,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "21,6",
+        "Tasas femeninas": "4,6",
+        "Ambos sexos": 13.1
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "15.8",
+        "Tasas femeninas": "8.2",
+        "Ambos sexos": 228.2
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "19.1",
+        "Tasas femeninas": "17.3",
+        "Ambos sexos": 221.3
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "4.8",
+        "Tasas femeninas": "3.0",
+        "Ambos sexos": 87.9
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "3.3",
+        "Tasas femeninas": "2.0",
+        "Ambos sexos": 73.3
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "8.2",
+        "Tasas femeninas": "2.2",
+        "Ambos sexos": 51.6
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "1.6",
+        "Tasas femeninas": "1.8",
+        "Ambos sexos": 36.2
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "1.4",
+        "Tasas femeninas": "1.4",
+        "Ambos sexos": 27.0
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "0.9",
+        "Tasas femeninas": "0.6",
+        "Ambos sexos": 21.1
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "4.3",
+        "Tasas femeninas": "0.7",
+        "Ambos sexos": 15.7
+    },
+    {
+        "Anos": 2018,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "4.1",
+        "Tasas femeninas": "1.0",
+        "Ambos sexos": 13.3
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "16.2",
+        "Tasas femeninas": "8.4",
+        "Ambos sexos": 241.6
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "19.1",
+        "Tasas femeninas": "17.0",
+        "Ambos sexos": 224.0
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "4.8",
+        "Tasas femeninas": "3.1",
+        "Ambos sexos": 88.1
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "2.8",
+        "Tasas femeninas": "1.9",
+        "Ambos sexos": 72.2
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "8.3",
+        "Tasas femeninas": "1.9",
+        "Ambos sexos": 49.7
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "1.7",
+        "Tasas femeninas": "1.9",
+        "Ambos sexos": 39.5
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "1.4",
+        "Tasas femeninas": "1.5",
+        "Ambos sexos": 26.1
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "0.8",
+        "Tasas femeninas": "0.5",
+        "Ambos sexos": 21.6
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "4.2",
+        "Tasas femeninas": "0.6",
+        "Ambos sexos": 15.5
+    },
+    {
+        "Anos": 2017,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "4.4",
+        "Tasas femeninas": "1.2",
+        "Ambos sexos": 13.9
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "14.8",
+        "Tasas femeninas": "7.7",
+        "Ambos sexos": 217.7
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "19.2",
+        "Tasas femeninas": "17.2",
+        "Ambos sexos": 216.3
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "4.6",
+        "Tasas femeninas": "3.0",
+        "Ambos sexos": 84.2
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "2.6",
+        "Tasas femeninas": "1.8",
+        "Ambos sexos": 60.6
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "8.8",
+        "Tasas femeninas": "2.0",
+        "Ambos sexos": 49.0
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "1.7",
+        "Tasas femeninas": "1.7",
+        "Ambos sexos": 36.4
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "0.8",
+        "Tasas femeninas": "0.5",
+        "Ambos sexos": 24.2
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "1.2",
+        "Tasas femeninas": "1.4",
+        "Ambos sexos": 20.0
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "3.6",
+        "Tasas femeninas": "0.7",
+        "Ambos sexos": 13.8
+    },
+    {
+        "Anos": 2016,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "4.1",
+        "Tasas femeninas": "1.0",
+        "Ambos sexos": 12.7
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "231.0",
+        "Tasas femeninas": "205.6",
+        "Ambos sexos": 218.3
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "251.6",
+        "Tasas femeninas": "178.6",
+        "Ambos sexos": 215.0
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "82.6",
+        "Tasas femeninas": "82.7",
+        "Ambos sexos": 82.6
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "64.0",
+        "Tasas femeninas": "62.5",
+        "Ambos sexos": 63.2
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "50.5",
+        "Tasas femeninas": "46.1",
+        "Ambos sexos": 48.3
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "40.4",
+        "Tasas femeninas": "34.8",
+        "Ambos sexos": 37.6
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "25.9",
+        "Tasas femeninas": "25.2",
+        "Ambos sexos": 25.5
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "16.1",
+        "Tasas femeninas": "24.0",
+        "Ambos sexos": 20.1
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "21.1",
+        "Tasas femeninas": "5.8",
+        "Ambos sexos": 13.4
+    },
+    {
+        "Anos": 2015,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "21.5",
+        "Tasas femeninas": "5.2",
+        "Ambos sexos": 13.3
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "226.6",
+        "Tasas femeninas": "202.0",
+        "Ambos sexos": 212.6
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "245.3",
+        "Tasas femeninas": "182.1",
+        "Ambos sexos": 211.6
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "84.4",
+        "Tasas femeninas": "82.7",
+        "Ambos sexos": 82.9
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "55.0",
+        "Tasas femeninas": "50.2",
+        "Ambos sexos": 56.3
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "51.8",
+        "Tasas femeninas": "44.2",
+        "Ambos sexos": 47.0
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "38.1",
+        "Tasas femeninas": "33.2",
+        "Ambos sexos": 35.3
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "26.0",
+        "Tasas femeninas": "24.1",
+        "Ambos sexos": 26.2
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "16.1",
+        "Tasas femeninas": "24.6",
+        "Ambos sexos": 19.8
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "19.5",
+        "Tasas femeninas": "6.2",
+        "Ambos sexos": 12.8
+    },
+    {
+        "Anos": 2014,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "20.6",
+        "Tasas femeninas": "5.5",
+        "Ambos sexos": 12.7
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "233.9    ",
+        "Tasas femeninas": "177.9      ",
+        "Ambos sexos": 204.8
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "219.2  ",
+        "Tasas femeninas": "189.8        ",
+        "Ambos sexos": 202.9
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "80.8    ",
+        "Tasas femeninas": "81.5",
+        "Ambos sexos": 80.7
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "52.2    ",
+        "Tasas femeninas": "48.3",
+        "Ambos sexos": 54.6
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "47.5   ",
+        "Tasas femeninas": "43.3",
+        "Ambos sexos": 44.2
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "36.3",
+        "Tasas femeninas": "32.9      ",
+        "Ambos sexos": 33.8
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "24.2",
+        "Tasas femeninas": "22.7        ",
+        "Ambos sexos": 23.3
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "16.8    ",
+        "Tasas femeninas": "25.0       ",
+        "Ambos sexos": 20.1
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "21.6      ",
+        "Tasas femeninas": "5.3",
+        "Ambos sexos": 13.3
+    },
+    {
+        "Anos": 2013,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "18.2       ",
+        "Tasas femeninas": "6.1    ",
+        "Ambos sexos": 12.1
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "230.6  ",
+        "Tasas femeninas": " 169.8",
+        "Ambos sexos": 200.3
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "207.1",
+        "Tasas femeninas": " 188.2",
+        "Ambos sexos": 197.6
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "78.3 ",
+        "Tasas femeninas": "79.8",
+        "Ambos sexos": 79.0
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "50.5",
+        "Tasas femeninas": "47.2   ",
+        "Ambos sexos": 48.8
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "  46.3   ",
+        "Tasas femeninas": "38.8   ",
+        "Ambos sexos": 42.6
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "33.2",
+        "Tasas femeninas": " 26.7",
+        "Ambos sexos": 30.0
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "23.6  ",
+        "Tasas femeninas": "23.2",
+        "Ambos sexos": 23.4
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "15.3",
+        "Tasas femeninas": "24.0",
+        "Ambos sexos": 19.6
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": " 21.2",
+        "Tasas femeninas": "5.2 ",
+        "Ambos sexos": 13.2
+    },
+    {
+        "Anos": 2012,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": " 17.0",
+        "Tasas femeninas": " 5.7 ",
+        "Ambos sexos": 11.4
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "221.5",
+        "Tasas femeninas": " 166.9",
+        "Ambos sexos": 117.5
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "206.3 ",
+        "Tasas femeninas": " 189.6  ",
+        "Ambos sexos": 104.5
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "  74.0 ",
+        "Tasas femeninas": "80.0  ",
+        "Ambos sexos": 41.5
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "47.2 ",
+        "Tasas femeninas": " 45.5 ",
+        "Ambos sexos": 23.6
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "44.7",
+        "Tasas femeninas": "39.4  ",
+        "Ambos sexos": 25.2
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "34.2",
+        "Tasas femeninas": "28.4 ",
+        "Ambos sexos": 16.7
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "23.7  ",
+        "Tasas femeninas": "20.9",
+        "Ambos sexos": 11.4
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "15.3",
+        "Tasas femeninas": "25.4",
+        "Ambos sexos": 11.5
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": " 21.6",
+        "Tasas femeninas": " 5.6",
+        "Ambos sexos": 9.3
+    },
+    {
+        "Anos": 2011,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "14.3",
+        "Tasas femeninas": "4.7",
+        "Ambos sexos": 7.0
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "207.6",
+        "Tasas femeninas": "190.1",
+        "Ambos sexos": 211.8
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "217.5",
+        "Tasas femeninas": "163.3",
+        "Ambos sexos": 197.5
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "81.8",
+        "Tasas femeninas": "85.4",
+        "Ambos sexos": 86.9
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "45.8",
+        "Tasas femeninas": "41.7",
+        "Ambos sexos": 47.5
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "46.8",
+        "Tasas femeninas": "39.5",
+        "Ambos sexos": 42.0
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "32.1",
+        "Tasas femeninas": "24.4",
+        "Ambos sexos": 28.6
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "22.6",
+        "Tasas femeninas": "21.0",
+        "Ambos sexos": 24.5
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "16.2",
+        "Tasas femeninas": "27.2",
+        "Ambos sexos": 23.5
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "20.3",
+        "Tasas femeninas": "6.0",
+        "Ambos sexos": 13.7
+    },
+    {
+        "Anos": 2010,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "14.5",
+        "Tasas femeninas": "5.3",
+        "Ambos sexos": 10.7
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Enfermedades del corazon",
+        "Tasas masculinas ": "206.6",
+        "Tasas femeninas": "188.9",
+        "Ambos sexos": 113.4
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Tumores malignos",
+        "Tasas masculinas ": "216.6",
+        "Tasas femeninas": "162.6",
+        "Ambos sexos": 117.1
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Enfermedades cerebrovasculares ",
+        "Tasas masculinas ": "81.8",
+        "Tasas femeninas": "85.5",
+        "Ambos sexos": 45.8
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Influenza y neumonia ",
+        "Tasas masculinas ": "49.6",
+        "Tasas femeninas": "45.1",
+        "Ambos sexos": 23.3
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Accidentes ",
+        "Tasas masculinas ": "46.2",
+        "Tasas femeninas": "38.9",
+        "Ambos sexos": 25.0
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Enfermedades cronicas de las vias respiratorias inferiores ",
+        "Tasas masculinas ": "31.6",
+        "Tasas femeninas": "23.9",
+        "Ambos sexos": 15.7
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Enfermedades de las arterias, arteriolas y vasos capilares",
+        "Tasas masculinas ": "23.4",
+        "Tasas femeninas": "22.4",
+        "Ambos sexos": 12.1
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Diabetes mellitus",
+        "Tasas masculinas ": "15.8",
+        "Tasas femeninas": "26.4",
+        "Ambos sexos": 13.7
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Cirrosis y otras enfermedades cronicas del higado ",
+        "Tasas masculinas ": "20.3",
+        "Tasas femeninas": "5.9",
+        "Ambos sexos": 9.6
+    },
+    {
+        "Anos": 2009,
+        "Enfermedades": "Lesiones autoinfligidas intencionalmente ",
+        "Tasas masculinas ": "14.1",
+        "Tasas femeninas": "5.2",
+        "Ambos sexos": 6.6
     }
 ]

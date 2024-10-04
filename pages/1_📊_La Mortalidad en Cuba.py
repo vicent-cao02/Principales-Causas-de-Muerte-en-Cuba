@@ -322,10 +322,13 @@ with streamlit_analytics.track():
     st.write(" Las diferencias biológicas entre las mujeres y los hombres, los roles de género y la marginación social exponen de manera diferente a hombres y mujeres a los factores de riesgo, y determinan su capacidad para modificar comportamientos de riesgos así como el éxito de las intervenciones frente a estas enfermedades. Un vistazo en los números muestran que estas enfermedades afectan más a hombres, esto se debe a que para obtener más estatus los hombres deben fumar y consumir bebidas alcohólicas frecuentemente, lo que provoca un aumento acelerado de estas enfermedades.")
     st.write("Las mujeres cubanas enfrentan un desafío creciente con el cáncer, especialmente cáncer de mama y cervical, lo cual representa una alta tasa de mortalidad.Las mujeres tienen significativamente más probabilidad de ser más obesas que los hombres, aumentando la vulnerabilidad de estas al padecer de enfermedades no transmisibles y especialmente diabetes.")
 
-    def load_data():
-        return pd.read_json('data/output1.json')
+    # def load_data():
+    #     return pd.read_json('data/output1.json')
 
-    data1 = load_data()
+    with open("data/output1.json") as f:
+        data1 = json.load(f)
+
+    # data1 = load_data()r
     df1 = pd.DataFrame(data1)
 
     excluir_enfermedades = [
@@ -339,9 +342,9 @@ with streamlit_analytics.track():
     df1 = df1[~df1['Enfermedades'].isin(excluir_enfermedades)]
 
     years = df1["Anos"].unique()
-    selected_year = st.selectbox("Selecciona un año", years, key="year_selector")
+    year_seleccionado = st.slider("Selecciona un año:", min_value=int(years.min()), max_value=int(years.max()), value=int(years.min()), key="sexo")
 
-    df_filtered = df1[df1['Anos'] == selected_year ]
+    df_filtered = df1[df1['Anos'] == year_seleccionado]
 
     df_filtered['Tasas masculinas '] = pd.to_numeric(df_filtered['Tasas masculinas '].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
     df_filtered['Tasas femeninas'] = pd.to_numeric(df_filtered['Tasas femeninas'].str.replace(',', '.', regex=False).str.replace(' ', '', regex=False), errors='coerce')
@@ -386,7 +389,7 @@ with streamlit_analytics.track():
 
     anios = df_enfermedad['Annos'].unique()
 
-    anio_seleccionado = st.slider("Selecciona un año:", min_value=int(anios.min()), max_value=int(anios.max()), value=int(anios.min()))
+    anio_seleccionado = st.slider("Selecciona un año:", min_value=int(anios.min()), max_value=int(anios.max()), value=int(anios.min()), key="especialist")
 
     df_anio = df_enfermedad[df_enfermedad['Annos'] == anio_seleccionado]
 
@@ -395,7 +398,7 @@ with streamlit_analytics.track():
         y=[df_anio['Cantidad de defunciones '].values[0], df_anio['Cantidad de especialistas'].values[0]],
         color=['Defunciones', 'Especialistas'],
         labels={'x': 'Categoría', 'y': 'Cantidad'},
-        title=f'Cantidad de Defunciones vs Especialistas en {enfermedad_seleccionada} ({anio_seleccionado})'
+        title=f'Cantidad de Defunciones y Especialistas en {enfermedad_seleccionada} ({anio_seleccionado})'
     )
 
     st.plotly_chart(fig)
