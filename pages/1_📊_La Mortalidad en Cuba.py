@@ -193,7 +193,7 @@ with streamlit_analytics.track():
 
     fig.update_layout(
         xaxis_visible=False,
-        yaxis_visible=False,
+        # yaxis_visible=False,
         showlegend=False,
         margin=dict(l=0, r=0, t=30, b=0) 
     )
