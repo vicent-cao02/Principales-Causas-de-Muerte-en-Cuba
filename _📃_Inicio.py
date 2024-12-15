@@ -55,14 +55,6 @@ with streamlit_analytics.track():
             </style>""",
     unsafe_allow_html=True)
     st.markdown(
-    """<h3 class = 'nombre'>Brenda Valdés Morales</h3> <style>
-            .nombre{
-            font-size: 35px;
-            text-align: center;
-            }
-        </style>""",
-    unsafe_allow_html=True)
-    st.markdown(
         """<h1 class = 'universidad'>Universidad de la Habana</h1> 
             <style>
                 .universidad{
